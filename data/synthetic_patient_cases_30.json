@@ -1,0 +1,767 @@
+[
+  {
+    "case_id": 2,
+    "patient_category": "Balita",
+    "reference_priority": "high",
+    "priority_score": 9,
+    "active_trigger_rules": [
+      {
+        "rule": "toddler_stunting_status",
+        "reason": "Toddler patient has a nutrition status that may require follow-up.",
+        "weight": 5,
+        "evidence": {
+          "statusGizi": "Berisiko Stunting"
+        },
+        "reason_id": "Status gizi balita menunjukkan indikasi risiko stunting atau masalah pertumbuhan yang perlu dipantau."
+      },
+      {
+        "rule": "latest_monitoring_indicates_risk",
+        "reason": "Latest monitoring result indicates nutritional risk.",
+        "weight": 4,
+        "evidence": {
+          "hasil_ai": "Berisiko Stunting",
+          "status_final_dokter": "Berisiko Stunting",
+          "latest_monitoring_id": 2
+        },
+        "reason_id": "Hasil monitoring gizi terakhir menunjukkan kondisi yang memerlukan tindak lanjut pemantauan."
+      }
+    ],
+    "synthesized_whatsapp_message": "Selamat pagi/siang Ibu/Bapak dari Kenzo Kusuma, salam sehat dari Petugas Gizi Puskesmas. Berdasarkan hasil pemantauan tumbuh kembang terakhir, kami ingin mengundang Ibu/Bapak dan Adik Kenzo untuk berkonsultasi singkat di Puskesmas. Kita akan mengukur ulang berat dan tinggi badan Kenzo serta berbincang mengenai tips pola makan sehat agar tumbuh kembangnya makin optimal. Kapan ada waktu luang minggu ini untuk berkunjung? Terima kasih banyak atas perhatiannya, Bu/Pak.",
+    "clinical_action_recommendation": "Jadwalkan konsultasi gizi tatap muka dan validasi ulang pengukuran antropometri (BB dan TB) balita Kenzo Kusuma untuk mengonfirmasi tren pertumbuhan pasca penurunan BB. Lakukan evaluasi mendalam terkait asupan nutrisi harian (food recall 24 jam), pola asuh makan, serta riwayat infeksi penyerta. Berikan konseling gizi berfokus pada peningkatan asupan protein hewani dan energi padat gizi, serta koordinasikan dengan dokter Puskesmas untuk pemeriksaan klinis lanjutan guna mencegah risiko stunting."
+  },
+  {
+    "case_id": 3,
+    "patient_category": "Balita",
+    "reference_priority": "high",
+    "priority_score": 9,
+    "active_trigger_rules": [
+      {
+        "rule": "toddler_stunting_status",
+        "reason": "Toddler patient has a nutrition status that may require follow-up.",
+        "weight": 5,
+        "evidence": {
+          "statusGizi": "Berisiko Stunting"
+        },
+        "reason_id": "Status gizi balita menunjukkan indikasi risiko stunting atau masalah pertumbuhan yang perlu dipantau."
+      },
+      {
+        "rule": "latest_monitoring_indicates_risk",
+        "reason": "Latest monitoring result indicates nutritional risk.",
+        "weight": 4,
+        "evidence": {
+          "hasil_ai": "Berisiko Stunting",
+          "status_final_dokter": "Berisiko Stunting",
+          "latest_monitoring_id": 3
+        },
+        "reason_id": "Hasil monitoring gizi terakhir menunjukkan kondisi yang memerlukan tindak lanjut pemantauan."
+      }
+    ],
+    "synthesized_whatsapp_message": "Halo Ibu/Bapak dari Adik Kenzo Kusuma, salam sehat dari Puskesmas. Agar tumbuh kembang Adik Kenzo berjalan optimal, kami mengundang Ibu/Bapak membawa Adik Kenzo ke Puskesmas untuk pemeriksaan tumbuh kembang dan konsultasi gizi gratis. Mohon kabari kami untuk jadwal kedatangannya ya, Bu/Pak. Terima kasih.",
+    "clinical_action_recommendation": "Jadwalkan konsultasi gizi tatap muka dan re-evaluasi antropometri komprehensif untuk An. Kenzo Kusuma yang terindikasi berisiko stunting. Lakukan penelaahan pola makan harian (konseling PMBA) dengan penekanan pada peningkatan asupan protein hewani harian, skrining kemungkinan penyakit penyerta/infeksi kronis, serta tetapkan jadwal pemantauan berat dan tinggi badan secara berkala di Puskesmas/Posyandu."
+  },
+  {
+    "case_id": 4,
+    "patient_category": "Balita",
+    "reference_priority": "high",
+    "priority_score": 9,
+    "active_trigger_rules": [
+      {
+        "rule": "toddler_stunting_status",
+        "reason": "Toddler patient has a nutrition status that may require follow-up.",
+        "weight": 5,
+        "evidence": {
+          "statusGizi": "Berisiko Stunting"
+        },
+        "reason_id": "Status gizi balita menunjukkan indikasi risiko stunting atau masalah pertumbuhan yang perlu dipantau."
+      },
+      {
+        "rule": "latest_monitoring_indicates_risk",
+        "reason": "Latest monitoring result indicates nutritional risk.",
+        "weight": 4,
+        "evidence": {
+          "hasil_ai": "Berisiko Stunting",
+          "status_final_dokter": "Berisiko Stunting",
+          "latest_monitoring_id": 4
+        },
+        "reason_id": "Hasil monitoring gizi terakhir menunjukkan kondisi yang memerlukan tindak lanjut pemantauan."
+      }
+    ],
+    "synthesized_whatsapp_message": "Selamat pagi/siang Orang Tua dari Ananda Kenzo Kusuma. Salam sehat dari Puskesmas. Berdasarkan pemantauan tumbuh kembang terbaru, kami mengundang Bapak/Ibu untuk membawa Ananda Kenzo melakukan konsultasi gizi dan penimbangan ulang di Puskesmas. Konsultasi ini bertujuan agar kita dapat bersama-sama menjaga pertumbuhan Ananda tetap optimal. Mohon konfirmasi jadwal kedatangan Bapak/Ibu ya. Terima kasih.",
+    "clinical_action_recommendation": "Lakukan verifikasi antropometri ulang (BB dan TB) untuk Ananda Kenzo Kusuma serta evaluasi tren kurva pertumbuhan pada KMS. Agendakan konseling gizi tatap muka atau kunjungan rumah guna melakukan penelusuran asupan makan (dietary recall 24 jam), terutama kecukupan protein hewani dan mikronutrien untuk pencegahan stunting. Koordinasikan dengan petugas Posyandu/TPK untuk pemantauan rutin dan pertimbangkan pemberian Makanan Tambahan (PMT) berbahan pangan lokal sesuai indikasi."
+  },
+  {
+    "case_id": 5,
+    "patient_category": "Balita",
+    "reference_priority": "high",
+    "priority_score": 9,
+    "active_trigger_rules": [
+      {
+        "rule": "toddler_stunting_status",
+        "reason": "Toddler patient has a nutrition status that may require follow-up.",
+        "weight": 5,
+        "evidence": {
+          "statusGizi": "Berisiko Stunting"
+        },
+        "reason_id": "Status gizi balita menunjukkan indikasi risiko stunting atau masalah pertumbuhan yang perlu dipantau."
+      },
+      {
+        "rule": "latest_monitoring_indicates_risk",
+        "reason": "Latest monitoring result indicates nutritional risk.",
+        "weight": 4,
+        "evidence": {
+          "hasil_ai": "Berisiko Stunting",
+          "status_final_dokter": "Berisiko Stunting",
+          "latest_monitoring_id": 5
+        },
+        "reason_id": "Hasil monitoring gizi terakhir menunjukkan kondisi yang memerlukan tindak lanjut pemantauan."
+      }
+    ],
+    "synthesized_whatsapp_message": "Halo Bapak/Ibu dari Adik Kenzo Kusuma, salam sehat dari Puskesmas. Kami ingin mengajak Bapak/Ibu untuk membawa Adik Kenzo melakukan pemeriksaan tumbuh kembang dan konsultasi gizi rutin di Puskesmas. Langkah ini penting agar kita dapat bersama-sama mendukung pertumbuhan Adik Kenzo tetap optimal. Silakan membalas pesan ini atau menghubungi petugas untuk memilih jadwal kedatangan ya. Terima kasih.",
+    "clinical_action_recommendation": "Lakukan pemanggilan/kunjungan rumah untuk evaluasi status gizi menyeluruh pada balita Kenzo Kusuma dengan status Berisiko Stunting. Lakukan pengukuran ulang antropometri secara presisi (BB, TB, LiLA) serta recall asupan makan (dietary assessment) 24 jam untuk menilai kecukupan asupan energi dan protein hewani. Berikan konseling edukasi gizi seimbang kaya protein hewani kepada orang tua, pertimbangkan pemberian Makanan Tambahan (PMT) berbahan lokal, dan jadwalkan pemantauan rutin bulanan di Posyandu/Puskesmas."
+  },
+  {
+    "case_id": 6,
+    "patient_category": "Balita",
+    "reference_priority": "high",
+    "priority_score": 9,
+    "active_trigger_rules": [
+      {
+        "rule": "toddler_stunting_status",
+        "reason": "Toddler patient has a nutrition status that may require follow-up.",
+        "weight": 5,
+        "evidence": {
+          "statusGizi": "Berisiko Stunting"
+        },
+        "reason_id": "Status gizi balita menunjukkan indikasi risiko stunting atau masalah pertumbuhan yang perlu dipantau."
+      },
+      {
+        "rule": "latest_monitoring_indicates_risk",
+        "reason": "Latest monitoring result indicates nutritional risk.",
+        "weight": 4,
+        "evidence": {
+          "hasil_ai": "Berisiko Stunting",
+          "status_final_dokter": "Berisiko Stunting",
+          "latest_monitoring_id": 6
+        },
+        "reason_id": "Hasil monitoring gizi terakhir menunjukkan kondisi yang memerlukan tindak lanjut pemantauan."
+      }
+    ],
+    "synthesized_whatsapp_message": "Halo Ibu/Bapak dari An. Kenzo Kusuma, kami dari tim kesehatan Puskesmas ingin mengajak Dek Kenzo untuk melakukan pemeriksaan dan konsultasi tumbuh kembang berkala. Pemantauan ini penting agar Dek Kenzo bisa tumbuh sehat dan optimal. Mohon dapat berkunjung ke Puskesmas/Posyandu terdekat pada jadwal pelayanan ya, Bu/Pak. Terima kasih.",
+    "clinical_action_recommendation": "Jadwalkan kunjungan ulang untuk evaluasi pertumbuhan An. Kenzo Kusuma (pengukuran BB, TB/PB, dan plotting ulang grafik Z-score TB/U). Lakukan konseling gizi intensif kepada orang tua terkait pemberian makanan bergizi seimbang yang kaya protein hewani, serta koordinasikan dengan Dokter Spesialis Anak/Dokter Puskesmas untuk penapisan adanya infeksi penyerta atau rujukan pemberian Makanan Tambahan (PMT) Balita."
+  },
+  {
+    "case_id": 7,
+    "patient_category": "Balita",
+    "reference_priority": "high",
+    "priority_score": 9,
+    "active_trigger_rules": [
+      {
+        "rule": "toddler_stunting_status",
+        "reason": "Toddler patient has a nutrition status that may require follow-up.",
+        "weight": 5,
+        "evidence": {
+          "statusGizi": "Berisiko Stunting"
+        },
+        "reason_id": "Status gizi balita menunjukkan indikasi risiko stunting atau masalah pertumbuhan yang perlu dipantau."
+      },
+      {
+        "rule": "latest_monitoring_indicates_risk",
+        "reason": "Latest monitoring result indicates nutritional risk.",
+        "weight": 4,
+        "evidence": {
+          "hasil_ai": "Berisiko Stunting",
+          "status_final_dokter": "Berisiko Stunting",
+          "latest_monitoring_id": 7
+        },
+        "reason_id": "Hasil monitoring gizi terakhir menunjukkan kondisi yang memerlukan tindak lanjut pemantauan."
+      }
+    ],
+    "synthesized_whatsapp_message": "Halo Bapak/Ibu dari adik Kenzo Kusuma, salam sehat dari Puskesmas. Berdasarkan catatan pemantauan tumbuh kembang terakhir, grafik pertumbuhan adik Kenzo perlu kita dampingi bersama agar tumbuh kembangnya makin optimal dan terhindar dari risiko stunting. Kami mengundang Bapak/Ibu untuk membawa adik Kenzo berkonsultasi dengan petugas gizi di Puskesmas/Posyandu terdekat. Kami siap membantu memberikan arahan pola makan yang sesuai untuk adik Kenzo. Terima kasih banyak atas perhiatannya.",
+    "clinical_action_recommendation": "Lakukan peninjauan asupan gizi (food recall 24 jam) dan pola asuh makan balita Kenzo Kusuma dengan fokus pada kecukupan protein hewani. Jadwalkan kunjungan tatap muka di Puskesmas/Posyandu untuk validasi ulang antropometri (BB/TB), evaluasi kelayakan pemberian Makanan Tambahan (PMT) berbahan pangan lokal, serta koordinasikan dengan dokter Puskesmas untuk evaluasi klinis tumbuh kembang secara menyeluruh."
+  },
+  {
+    "case_id": 8,
+    "patient_category": "Balita",
+    "reference_priority": "high",
+    "priority_score": 9,
+    "active_trigger_rules": [
+      {
+        "rule": "toddler_stunting_status",
+        "reason": "Toddler patient has a nutrition status that may require follow-up.",
+        "weight": 5,
+        "evidence": {
+          "statusGizi": "Berisiko Stunting"
+        },
+        "reason_id": "Status gizi balita menunjukkan indikasi risiko stunting atau masalah pertumbuhan yang perlu dipantau."
+      },
+      {
+        "rule": "latest_monitoring_indicates_risk",
+        "reason": "Latest monitoring result indicates nutritional risk.",
+        "weight": 4,
+        "evidence": {
+          "hasil_ai": "Berisiko Stunting",
+          "status_final_dokter": "Berisiko Stunting",
+          "latest_monitoring_id": 8
+        },
+        "reason_id": "Hasil monitoring gizi terakhir menunjukkan kondisi yang memerlukan tindak lanjut pemantauan."
+      }
+    ],
+    "synthesized_whatsapp_message": "Selamat pagi/siang Orang Tua dari An. Kenzo Kusuma. Salam sehat dari Puskesmas. Berdasarkan hasil pemantauan tumbuh kembang An. Kenzo, kami ingin mengundang Bapak/Ibu untuk berkonsultasi mengenai pertumbuhan dan pola makan An. Kenzo di Puskesmas/Posyandu. Kita akan berdiskusi santai mengenai tips pemberian asupan gizi seimbang dan makanan bergizi untuk mendukung anak tumbuh aktif dan sehat. Mohon luangkan waktu untuk berkunjung pada jadwal Posyandu terdekat atau ke Puskesmas. Jika ada pertanyaan, Bapak/Ibu bisa membalas pesan ini. Terima kasih!",
+    "clinical_action_recommendation": "Jadwalkan konsultasi gizi tatap muka dan evaluasi tumbuh kembang An. Kenzo Kusuma di Puskesmas/Posyandu. Lakukan validasi pengukuran antropometri (BB dan TB) secara presisi, plot ulang pada grafik pertumbuhan WHO/KMS, serta lakukan asesmen asupan nutrisi harian (food recall 24 jam) untuk menilai kecukupan protein hewani dan kalori. Berikan edukasi gizi mengenai pola makan gizi seimbang dan pertimbangkan pemberian Makanan Tambahan (PMT) pemulihan/penyuluhan berbasis pangan lokal jika diindikasikan. Koordinasikan dengan kader kesehatan setempat untuk pemantauan berkala."
+  },
+  {
+    "case_id": 12,
+    "patient_category": "Balita",
+    "reference_priority": "high",
+    "priority_score": 9,
+    "active_trigger_rules": [
+      {
+        "rule": "toddler_stunting_status",
+        "reason": "Toddler patient has a nutrition status that may require follow-up.",
+        "weight": 5,
+        "evidence": {
+          "statusGizi": "Berisiko Stunting"
+        },
+        "reason_id": "Status gizi balita menunjukkan indikasi risiko stunting atau masalah pertumbuhan yang perlu dipantau."
+      },
+      {
+        "rule": "latest_monitoring_indicates_risk",
+        "reason": "Latest monitoring result indicates nutritional risk.",
+        "weight": 4,
+        "evidence": {
+          "hasil_ai": "Berisiko Stunting",
+          "status_final_dokter": "Berisiko Stunting",
+          "latest_monitoring_id": 12
+        },
+        "reason_id": "Hasil monitoring gizi terakhir menunjukkan kondisi yang memerlukan tindak lanjut pemantauan."
+      }
+    ],
+    "synthesized_whatsapp_message": "Halo Bapak/Ibu dari Adik Kenzo Kusuma, salam sehat dari Puskesmas. Berdasarkan catatan pemantauan tumbuh kembang, kami mengundang Bapak/Ibu untuk membawa Adik Kenzo berkonsultasi gizi di Puskesmas/Posyandu. Kita akan mengukur kembali tinggi dan berat badan Adik Kenzo serta mendiskusikan asupan nutrisi yang tepat agar pertumbuhannya semakin optimal. Silakan hubungi kami untuk memilih jadwal kedatangan ya. Terima kasih!",
+    "clinical_action_recommendation": "Jadwalkan konseling gizi tatap muka dan evaluasi antropometri ulang (konfirmasi pengukuran TB dan BB) untuk Balita Kenzo Kusuma di Puskesmas/Posyandu. Lakukan skrining riwayat asupan makan (24-hour food recall), riwayat penyakit infeksi berulang, serta pola asuh. Berikan edukasi Pemberian Makan Bayi dan Anak (PMBA) dengan fokus peningkatan protein hewani, serta pertimbangkan koordinasi dengan dokter puskesmas untuk evaluasi penyebab mendasar dan pemberian Pemberian Makanan Tambahan (PMT) berbahan pangan lokal."
+  },
+  {
+    "case_id": 16,
+    "patient_category": "Ibu Hamil",
+    "reference_priority": "high",
+    "priority_score": 10,
+    "active_trigger_rules": [
+      {
+        "rule": "active_complaint",
+        "reason": "Pasien memiliki keluhan aktif yang belum ditanggapi.",
+        "weight": 5,
+        "evidence": {
+          "active_statuses": [
+            "belum_dibalas"
+          ]
+        },
+        "reason_id": "Pasien memiliki keluhan aktif yang memerlukan tindak lanjut tenaga kesehatan."
+      },
+      {
+        "rule": "pregnant_low_lila",
+        "reason": "Ukuran LILA ibu hamil di bawah ambang batas (< 23.5 cm / Risiko KEK).",
+        "weight": 5,
+        "evidence": {
+          "LILA": 23,
+          "threshold": 23.5
+        },
+        "reason_id": "Pengukuran LILA ibu hamil berada di bawah ambang pemantauan yang memerlukan tindak lanjut."
+      }
+    ],
+    "synthesized_whatsapp_message": "Halo Ibu Sri Wulandari, salam sehat dari Puskesmas. Kami mendapati keluhan sariawan di bibir yang membuat Ibu perih saat mengunyah. Agar asupan nutrisi Ibu dan janin tetap terpenuhi, disarankan untuk mengonsumsi makanan lembut/lunak yang tidak pedas atau asam terlebih dahulu ya, Bu. Selain itu, kami mengundang Ibu ke Puskesmas untuk pemeriksaan lingkar lengan dan konsultasi gizi lebih lanjut agar kesehatan Ibu dan buah hati tetap optimal. Hubungi kami jika ingin menentukan jadwal kedatangan ya, Bu.",
+    "clinical_action_recommendation": "Lakukan pemanggilan pasien ke Puskesmas atau kunjungan rumah untuk intervensi risiko Kurang Energi Kronis (KEK) terkait pengukuran LILA 23 cm (< 23.5 cm). Berikan konseling gizi spesifik mengenai modifikasi tekstur makanan (makanan lunak/lembut, tidak asam, tidak pedas, dan tidak terlalu panas) guna mengatasi kendala asupan akibat sariawan. Evaluasi potensi pemberian Makanan Tambahan (MT) Bumil KEK serta koordinasikan dengan dokter/bidan untuk penanganan medis pada sariawan pasien."
+  },
+  {
+    "case_id": 17,
+    "patient_category": "Ibu Hamil",
+    "reference_priority": "high",
+    "priority_score": 10,
+    "active_trigger_rules": [
+      {
+        "rule": "active_complaint",
+        "reason": "Pasien memiliki keluhan aktif yang belum ditanggapi.",
+        "weight": 5,
+        "evidence": {
+          "active_statuses": [
+            "belum_dibalas"
+          ]
+        },
+        "reason_id": "Pasien memiliki keluhan aktif yang memerlukan tindak lanjut tenaga kesehatan."
+      },
+      {
+        "rule": "pregnant_low_lila",
+        "reason": "Ukuran LILA ibu hamil di bawah ambang batas (< 23.5 cm / Risiko KEK).",
+        "weight": 5,
+        "evidence": {
+          "LILA": 23,
+          "threshold": 23.5
+        },
+        "reason_id": "Pengukuran LILA ibu hamil berada di bawah ambang pemantauan yang memerlukan tindak lanjut."
+      }
+    ],
+    "synthesized_whatsapp_message": "Halo Bu Sri Wulandari, salam sehat dari Puskesmas. Kami mendapati catatan bahwa Ibu sedang sariawan dan terasa perih saat mengunyah. Supaya asupan makanan untuk Ibu dan dede bayi tetap terpenuhi, coba pilih makanan yang lembut dan lunak dulu ya Bu (seperti bubur atau sup hangat), serta hindari makan pedas dan asam. Bila ada waktu, mari berkunjung ke Puskesmas agar kami bisa memeriksa kondisi Ibu lebih lanjut dan memberikan pendampingan gizi yang tepat. Sehat selalu ya Bu!",
+    "clinical_action_recommendation": "1. Lakukan konseling gizi tatap muka dan evaluasi asupan energi/protein terkait risiko Kurang Energi Kronis (KEK) karena pengukuran LILA 23 cm (<23,5 cm).\n2. Berikan tatalaksana diet khusus sariawan: anjurkan makanan bertekstur lunak/halus (seperti bubur tim/saring), suhu tidak terlalu panas, serta hindari makanan pedas, asam, dan bertekstur keras agar asupan nutrisi janin tetap optimal.\n3. Usulkan pemberian Pemberian Makanan Tambahan (PMT) Ibu Hamil KEK dan koordinasikan dengan dokter Puskesmas untuk penanganan medis/terapi lokal sariawan jika diperlukan.\n4. Jadwalkan pemantauan berkala kenaikan berat badan dan LILA pada kunjungan berikutnya."
+  },
+  {
+    "case_id": 18,
+    "patient_category": "Ibu Hamil",
+    "reference_priority": "high",
+    "priority_score": 10,
+    "active_trigger_rules": [
+      {
+        "rule": "active_complaint",
+        "reason": "Pasien memiliki keluhan aktif yang belum ditanggapi.",
+        "weight": 5,
+        "evidence": {
+          "active_statuses": [
+            "belum_dibalas"
+          ]
+        },
+        "reason_id": "Pasien memiliki keluhan aktif yang memerlukan tindak lanjut tenaga kesehatan."
+      },
+      {
+        "rule": "pregnant_low_lila",
+        "reason": "Ukuran LILA ibu hamil di bawah ambang batas (< 23.5 cm / Risiko KEK).",
+        "weight": 5,
+        "evidence": {
+          "LILA": 23,
+          "threshold": 23.5
+        },
+        "reason_id": "Pengukuran LILA ibu hamil berada di bawah ambang pemantauan yang memerlukan tindak lanjut."
+      }
+    ],
+    "synthesized_whatsapp_message": "Selamat pagi/siang Ibu Sri Wulandari, saya petugas gizi dari Puskesmas. Kami menerima laporan bahwa Ibu sedang mengalami sariawan yang terasa perih saat makan, serta hasil lingkar lengan (LILA) Ibu perlu perhatian khusus agar gizi Ibu dan dede bayi tetap terpenuhi dengan baik. Supaya makan tetap nyaman, Ibu bisa mencoba konsumsi makanan bertekstur lunak seperti bubur, sup hangat, atau jus, serta hindari dulu makanan pedas atau asam ya, Bu. Kami menyarankan Ibu untuk datang ke Puskesmas agar sariawannya bisa diperiksa oleh dokter dan Ibu bisa mendapatkan edukasi serta makanan tambahan gizi. Apakah ada waktu luang minggu ini untuk berkunjung ke Puskesmas?",
+    "clinical_action_recommendation": "1. Lakukan pemanggilan/kunjungan rumah untuk evaluasi kondisi Ibu Hamil KEK (LILA 23 cm) dan keluhan stomatitis/sariawan. 2. Rujuk ke dokter Puskesmas untuk penanganan medis sariawan yang aman bagi ibu hamil guna meredakan nyeri. 3. Berikan konseling gizi terkait modifikasi tekstur makanan (makanan lunak/saring, tinggi protein dan kalori, tidak pedas/asam, dan tidak terlalu panas) agar asupan nutrisi tetap optimal meskipun nyeri mengunyah. 4. Berikan Pemberian Makanan Tambahan (PMT) Ibu Hamil KEK dan jadwalkan pemantauan LILA serta berat badan secara berkala."
+  },
+  {
+    "case_id": 26,
+    "patient_category": "Ibu Hamil",
+    "reference_priority": "high",
+    "priority_score": 10,
+    "active_trigger_rules": [
+      {
+        "rule": "active_complaint",
+        "reason": "Pasien memiliki keluhan aktif yang belum ditanggapi.",
+        "weight": 5,
+        "evidence": {
+          "active_statuses": [
+            "belum_dibalas"
+          ]
+        },
+        "reason_id": "Pasien memiliki keluhan aktif yang memerlukan tindak lanjut tenaga kesehatan."
+      },
+      {
+        "rule": "pregnant_low_lila",
+        "reason": "Ukuran LILA ibu hamil di bawah ambang batas (< 23.5 cm / Risiko KEK).",
+        "weight": 5,
+        "evidence": {
+          "LILA": 23,
+          "threshold": 23.5
+        },
+        "reason_id": "Pengukuran LILA ibu hamil berada di bawah ambang pemantauan yang memerlukan tindak lanjut."
+      }
+    ],
+    "synthesized_whatsapp_message": "Halo Ibu Sri Wulandari \ud83d\udc4b\n\nBagaimana kondisinya hari ini, Bu? Semoga Ibu dan janin dalam kandungan senantiasa sehat ya. \ud83e\udd30\u2728\n\nBerdasarkan catatan pemantauan gizi, ukuran lingkar lengan atas (LILA) Ibu saat ini 23 cm dan Ibu juga menyampaikan ada keluhan sariawan yang perih saat mengunyah. Kami memahami kondisi sariawan pasti membuat Ibu kurang nyaman saat makan, padahal asupan nutrisi yang cukup sangat penting bagi tumbuh kembang si Buah Hati. \ud83d\udca1\n\nAgar asupan nutrisi harian Ibu tetap terpenuhi dengan baik dan sariawan cepat membaik, berikut beberapa tips praktis yang dapat Ibu coba di rumah:\n\n\ud83e\udd57 *Modifikasi Makanan:* Sajikan makanan bertekstur lembut dan berkuah seperti sup, tim, atau bubur halus agar mudah ditelan tanpa perlu banyak mengunyah.\n\ud83d\udca1 *Hindari Makanan Iritatif:* Hindari sementara makanan yang terlalu pedas, asam, keras, atau disajikan sangat panas karena dapat memperparah rasa perih.\n\ud83c\udf4e *Asupan Nutrisi Bergizi:* Pilih sumber protein dan buah bertekstur lembut seperti telur rebus, tahu, alpukat, atau pisang.\n\ud83d\udc8a *Tablet Tambah Darah:* Tetap rutin mengonsumsi Tablet Tambah Darah (TTD) sesuai anjuran bidan/dokter.\n\n\ud83d\udccc Kami sangat menyarankan Ibu Sri untuk datang melakukan kunjungan ke Puskesmas. Petugas kesehatan kami akan membantu mengevaluasi sariawan Ibu serta memfasilitasi program *Pemberian Makanan Tambahan (PMT)* untuk mendukung penambahan berat badan dan nutrisi Ibu Hamil. \ud83e\ude7a\n\nTetap semangat menjaga kesehatan dan asupan makanannya ya, Bu! Apabila ada kendala, jangan ragu untuk membalas pesan ini. Semoga sariawannya lekas sembuh! \u2728\ud83d\udcaa",
+    "clinical_action_recommendation": "1. Melakukan konseling gizi Ibu Hamil Risiko KEK (Kurang Energi Kronis) terkait hasil pengukuran LILA 23 cm (di bawah ambang batas 23.5 cm).\n2. Memberikan edukasi manajemen gizi saat sariawan dengan modifikasi tekstur makanan (lunak, berkuah, suhu hangat/dingin) agar asupan nutrisi dan energi harian tetap terpenuhi.\n3. Mengidentifikasi kebutuhan Pemberian Makanan Tambahan (PMT) Ibu Hamil KEK serta memantau kepatuhan konsumsi Tablet Tambah Darah (TTD).\n4. Menjadwalkan evaluasi klinis dan pemantauan antropometri (BB dan LILA) secara berkala di Puskesmas."
+  },
+  {
+    "case_id": 28,
+    "patient_category": "Balita",
+    "reference_priority": "medium",
+    "priority_score": 4,
+    "active_trigger_rules": [
+      {
+        "reason": "Evaluasi berkala menunjukkan tren pertumbuhan gizi berjalan sesuai kurva standar."
+      },
+      {
+        "reason": "Perlu pengingat kepatuhan konsumsi makanan tambahan dan suplemen harian."
+      }
+    ],
+    "synthesized_whatsapp_message": "Halo Ibu/Saudara Bayu Wardani, tim medis Puskesmas mengapresiasi kedisiplinan pemeriksaan gizi Anda. Mohon tetap rutin mengonsumsi makanan tambahan yang telah diresepkan ya. Semoga sehat selalu!",
+    "clinical_action_recommendation": "Pertahankan pemenuhan gizi seimbang harian dan pastikan konsumsi makanan tambahan tepat waktu."
+  },
+  {
+    "case_id": 29,
+    "patient_category": "Ibu Hamil",
+    "reference_priority": "medium",
+    "priority_score": 4,
+    "active_trigger_rules": [
+      {
+        "reason": "Evaluasi berkala menunjukkan tren pertumbuhan gizi berjalan sesuai kurva standar."
+      },
+      {
+        "reason": "Perlu pengingat kepatuhan konsumsi makanan tambahan dan suplemen harian."
+      }
+    ],
+    "synthesized_whatsapp_message": "Halo Ibu/Saudara Nurul Pratama, tim medis Puskesmas mengapresiasi kedisiplinan pemeriksaan gizi Anda. Mohon tetap rutin mengonsumsi makanan tambahan yang telah diresepkan ya. Semoga sehat selalu!",
+    "clinical_action_recommendation": "Pertahankan pemenuhan gizi seimbang harian dan pastikan konsumsi makanan tambahan tepat waktu."
+  },
+  {
+    "case_id": 30,
+    "patient_category": "Remaja Putri",
+    "reference_priority": "medium",
+    "priority_score": 4,
+    "active_trigger_rules": [
+      {
+        "reason": "Evaluasi berkala menunjukkan tren pertumbuhan gizi berjalan sesuai kurva standar."
+      },
+      {
+        "reason": "Perlu pengingat kepatuhan konsumsi makanan tambahan dan suplemen harian."
+      }
+    ],
+    "synthesized_whatsapp_message": "Halo Ibu/Saudara Nisrina Wulandari, tim medis Puskesmas mengapresiasi kedisiplinan pemeriksaan gizi Anda. Mohon tetap rutin mengonsumsi makanan tambahan yang telah diresepkan ya. Semoga sehat selalu!",
+    "clinical_action_recommendation": "Pertahankan pemenuhan gizi seimbang harian dan pastikan konsumsi makanan tambahan tepat waktu."
+  },
+  {
+    "case_id": 31,
+    "patient_category": "Calon Pengantin",
+    "reference_priority": "medium",
+    "priority_score": 4,
+    "active_trigger_rules": [
+      {
+        "reason": "Evaluasi berkala menunjukkan tren pertumbuhan gizi berjalan sesuai kurva standar."
+      },
+      {
+        "reason": "Perlu pengingat kepatuhan konsumsi makanan tambahan dan suplemen harian."
+      }
+    ],
+    "synthesized_whatsapp_message": "Halo Ibu/Saudara Rina Setiawan, tim medis Puskesmas mengapresiasi kedisiplinan pemeriksaan gizi Anda. Mohon tetap rutin mengonsumsi makanan tambahan yang telah diresepkan ya. Semoga sehat selalu!",
+    "clinical_action_recommendation": "Pertahankan pemenuhan gizi seimbang harian dan pastikan konsumsi makanan tambahan tepat waktu."
+  },
+  {
+    "case_id": 32,
+    "patient_category": "Balita",
+    "reference_priority": "medium",
+    "priority_score": 5,
+    "active_trigger_rules": [
+      {
+        "rule": "active_complaint",
+        "reason": "Pasien memiliki keluhan aktif yang belum ditanggapi.",
+        "weight": 5,
+        "evidence": {
+          "active_statuses": [
+            "belum_dibalas"
+          ]
+        },
+        "reason_id": "Pasien memiliki keluhan aktif yang memerlukan tindak lanjut tenaga kesehatan."
+      }
+    ],
+    "synthesized_whatsapp_message": "\ud83d\udc4b *Hai, Ibu/Bapak*!\n\n\ud83d\udccc *Kondisi Bayu saat ini:* Kami menerima laporan bahwa Bayu mengalami *muntah* dan *sakit perut* setelah mengonsumsi obat. Kami mengerti hal ini dapat membuat Khawatir.\n\n\ud83e\udd63 *Tips praktis untuk asupan:* \n- Berikan makanan ringan dan mudah dicerna, seperti *bubur beras*, *pisang matang*, atau *sup kaldu* (diet BRAT). \n- Sajikan dalam porsi kecil, 5\u20116 kali sehari, agar perut tidak terbebani. \n- Pastikan Bayu mendapatkan cukup cairan, gunakan *oral rehydration solution* (ORS) tiap 1\u20112 jam sesuai kebutuhan.\n\n\ud83e\ude7a *Tindak lanjut:* \n- Kami sarankan untuk datang ke Puskesmas dalam *2\u20113 hari* ke depan untuk pemeriksaan lebih lanjut. \n- Jika muntah tidak berhenti selama lebih dari 24 jam, atau muncul tanda dehidrasi (mulut kering, mata cekung, tidak ada urine), segera hubungi kami atau datang lebih cepat.\n\n\ud83d\udca1 *Catatan penting:* Pantau berat badan Bayu tiap hari. Jika berat badan turun lebih dari 0,5\u202fkg atau tidak bertambah, beri tahu tenaga kesehatan.\n\n\u2728 *Semangat terus, Bayu!* Kami di sini untuk membantu agar Bayu cepat kembali sehat dan ceria. Terima kasih atas perhatian dan kerja samanya.\n\n\ud83e\udd1d *Salam hangat dari tim Gizi Puskesmas*",
+    "clinical_action_recommendation": "1. Tinjau riwayat obat yang sedang dikonsumsi Bayu untuk mengidentifikasi kemungkinan penyebab muntah dan sakit perut.\n2. Lakukan pemeriksaan klinis pada kunjungan berikutnya: cek tanda vital, status hidrasi (turgor kulit, mata cekung, mulut kering), serta pemeriksaan abdomen.\n3. Edukasikan orang tua/caregiver tentang pola makan sementara: berikan makanan ringan, mudah dicerna, dan rendah lemak seperti pisang, bubur beras, atau sup kaldu (prinsip diet BRAT). Berikan cairan oral rehidrasi setiap 1-2 jam sesuai kebutuhan.\n4. Pantau berat badan harian dan catat perubahan; laporkan penurunan >0,5\u202fkg atau stagnasi berat badan selama 2 minggu.\n5. Jika muntah berlanjut >24\u202fjam, terjadi diare, atau muncul tanda dehidrasi berat, segera rujuk ke dokter untuk evaluasi kemungkinan penyesuaian dosis atau pemberian antiemetik sesuai protokol.\n6. Jadwalkan kunjungan kontrol ke Puskesmas dalam 2\u20113 hari ke depan untuk evaluasi kembali kondisi gastrointestinal dan pertumbuhan."
+  },
+  {
+    "case_id": 33,
+    "patient_category": "Ibu Hamil",
+    "reference_priority": "medium",
+    "priority_score": 5,
+    "active_trigger_rules": [
+      {
+        "rule": "pregnant_low_lila",
+        "reason": "Ukuran LILA ibu hamil di bawah ambang batas (< 23.5 cm / Risiko KEK).",
+        "weight": 5,
+        "evidence": {
+          "LILA": 23,
+          "threshold": 23.5
+        },
+        "reason_id": "Pengukuran LILA ibu hamil berada di bawah ambang pemantauan yang memerlukan tindak lanjut."
+      }
+    ],
+    "synthesized_whatsapp_message": "*\ud83d\udc4b Halo Ibu Nurul Pratama,*\n\n*\ud83e\ude7a Catatan kondisi:* LILA Ibu saat ini 23 cm, sedikit di bawah ambang aman (23.5 cm). Tidak ada keluhan aktif, namun penting untuk meningkatkan asupan gizi demi kesehatan Ibu dan janin.\n\n*\ud83e\udd57 Tips praktis asupan:* Tambahkan sekitar 300 kcal dan 15 gram protein setiap hari. Contoh menu: nasi + lauk ikan/ayam + sayur hijau, plus camilan sehat seperti kacang, susu, atau yoghurt. Jangan lupa minum tablet zat besi, asam folat, dan kalsium sesuai jadwal.\n\n*\ud83d\udccc Ajakan tindak lanjut:* Silakan datang ke Puskesmas untuk kontrol gizi kembali dalam 2 minggu. Kami akan mengukur LILA dan berat badan, serta memastikan suplementasi berjalan lancar.\n\n*\u2728 Tetap semangat, Ibu!* Kami dukung Ibu untuk kehamilan yang sehat dan bahagia. Hubungi kami bila ada pertanyaan.",
+    "clinical_action_recommendation": "1. Evaluasi kembali LILA dan berat badan ibu pada kunjungan berikutnya; jika LILA tetap < 23.5 cm, pertimbangkan penambahan intervensi gizi.\n2. Berikan konseling gizi khusus untuk meningkatkan asupan energi (\u2248 300 kcal tambahan/hari) dan protein (\u2248 15 g tambahan/hari) melalui makanan bergizi seperti nasi, daging tanpa lemak, ikan, telur, kacang-kacangan, dan sayuran hijau.\n3. Anjurkan suplementasi rutin sesuai protokol Puskesmas, termasuk tablet zat besi, asam folat, dan kalsium, serta pastikan kepatuhan minum.\n4. Jadwalkan kontrol gizi kembali dalam 2 minggu untuk memantau LILA, berat badan, dan kepatuhan suplementasi.\n5. Jika tidak ada peningkatan LILA dalam dua kontrol, rujuk ke dokter kebidanan untuk evaluasi lebih lanjut dan kemungkinan penyesuaian diet atau suplementasi tambahan."
+  },
+  {
+    "case_id": 34,
+    "patient_category": "Ibu Hamil",
+    "reference_priority": "high",
+    "priority_score": 10,
+    "active_trigger_rules": [
+      {
+        "rule": "active_complaint",
+        "reason": "Pasien memiliki keluhan aktif yang belum ditanggapi.",
+        "weight": 5,
+        "evidence": {
+          "active_statuses": [
+            "belum_dibalas"
+          ]
+        },
+        "reason_id": "Pasien memiliki keluhan aktif yang memerlukan tindak lanjut tenaga kesehatan."
+      },
+      {
+        "rule": "pregnant_low_lila",
+        "reason": "Ukuran LILA ibu hamil di bawah ambang batas (< 23.5 cm / Risiko KEK).",
+        "weight": 5,
+        "evidence": {
+          "LILA": 23,
+          "threshold": 23.5
+        },
+        "reason_id": "Pengukuran LILA ibu hamil berada di bawah ambang pemantauan yang memerlukan tindak lanjut."
+      }
+    ],
+    "synthesized_whatsapp_message": "\ud83d\udc4b *Halo Ibu Nurul,*\n\n*Catatan kondisi:* LILA Ibu saat ini 23\u202fcm, sedikit di bawah ambang batas yang perlu dipantau. Ibu juga melaporkan pusing, muntah, dan nafsu makan menurun saat minum obat.\n\n*Tips nutrisi:* \n- Konsumsi makanan kaya zat besi seperti daging merah tanpa lemak, hati, kacang merah, bayam, dan tempe.\n- Padukan dengan sumber vitamin\u202fC (jeruk, tomat, paprika) untuk membantu penyerapan zat besi.\n- Makan dalam porsi kecil 5\u20116 kali sehari, termasuk camilan sehat seperti buah segar, yoghurt, atau kacang.\n- Minum jahe hangat atau teh mint setelah makan untuk membantu mengurangi mual.\n\n*Tindak lanjut:* \nSilakan datang ke Puskesmas dalam 3\u20115 hari ke depan untuk pemeriksaan berat badan, LILA, dan tes darah (Hb, feritin). Kami juga akan meninjau kembali obat yang Ibu konsumsi dan memberi saran cara minum yang lebih nyaman.\n\n\u2728 *Semangat terus, Ibu! Kami siap membantu Ibu agar kehamilan tetap sehat dan nyaman.*",
+    "clinical_action_recommendation": "1. Lakukan pemeriksaan fisik lengkap termasuk pengukuran LILA dan berat badan saat kunjungan berikutnya.\n2. Ambil sampel darah untuk pemeriksaan Hb, feritin, dan status gizi (misalnya albumin) mengingat LILA < 23.5\u202fcm dan keluhan pusing serta muntah.\n3. Evaluasi riwayat penggunaan obat prenatal: identifikasi obat yang menimbulkan efek samping (pusing, muntah, penurunan nafsu makan) dan diskusikan penyesuaian waktu pemberian (misalnya bersama makanan atau setelah makan).\n4. Berikan konseling gizi khusus untuk kehamilan: \n   - Tingkatkan asupan makanan kaya zat besi (daging merah tanpa lemak, hati, kacang-kacangan, bayam, tempe) dan vitamin C untuk meningkatkan penyerapan.\n   - Anjurkan makan 5\u20136 kali kecil per hari dengan camilan sehat (buah segar, yoghurt, kacang). \n   - Sarankan minum jahe hangat atau teh mint untuk mengurangi mual.\n5. Instruksikan penggunaan suplemen zat besi/folat sesuai resep dokter, dengan cara mengonsumsi bersama makanan berserat rendah dan cairan putih untuk mengurangi iritasi lambung.\n6. Jadwalkan kontrol kembali ke Puskesmas dalam 3\u20135 hari atau lebih cepat bila gejala memburuk (pusing terus, muntah berulang, atau penurunan berat badan).\n7. Catat semua temuan dan rekomendasi pada rekam medis, serta pantau LILA secara mingguan sampai mencapai \u2265\u202f23,5\u202fcm."
+  },
+  {
+    "case_id": 35,
+    "patient_category": "Balita",
+    "reference_priority": "medium",
+    "priority_score": 4,
+    "active_trigger_rules": [
+      {
+        "rule": "no_monitoring_record",
+        "reason": "Pasien belum memiliki riwayat rekam monitoring gizi berkala.",
+        "weight": 4,
+        "evidence": null,
+        "reason_id": "Pasien belum memiliki catatan monitoring gizi yang dapat digunakan untuk evaluasi awal."
+      }
+    ],
+    "synthesized_whatsapp_message": "\ud83d\udc4b *Hai, Ayah/Bunda Alif!*\n\n\ud83e\ude7a *Catatan Kondisi Gizi*\nSaat ini belum ada data pemantauan gizi untuk Alif, jadi kami perlu melakukan pengecekan awal agar pertumbuhan balita tetap optimal.\n\n\ud83e\udd57 *Tips Praktis Asupan*\n- Pastikan Alif mendapatkan ASI eksklusif atau susu formula yang sesuai hingga usia 2 tahun.\n- Sajikan makanan bergizi lengkap: sayur\u2011sayuran warna-warni, buah segar, sumber protein (telur, ikan, daging tanpa lemak), serta karbohidrat kompleks (nasi, ubi, oatmeal).\n- Berikan camilan sehat seperti buah potong atau yoghurt tanpa tambahan gula.\n- Perhatikan ukuran porsi sesuai usia dan dorong Alif makan secara mandiri namun tetap diawasi.\n\n\ud83d\udccc *Tindak Lanjut*\nKami mengundang Ayah/Bunda untuk datang ke Puskesmas pada hari *Senin, 14 Oktober 2026* pukul *09.00* untuk pemeriksaan berat, panjang, dan penilaian pola makan.\n\n\u2728 *Semangat terus* menjaga kesehatan Alif! Kami siap membantu setiap langkahnya.\n\n\ud83d\udca1 *Jika ada pertanyaan, silakan hubungi kami kembali.*",
+    "clinical_action_recommendation": "1. Lakukan pemeriksaan antropometri lengkap (berat badan, panjang/tinggi, lingkar lengan atas) pada balita Alif untuk mendapatkan data baseline gizi.\n2. Catat riwayat menyusui, pola makan harian, dan asupan makanan pendamping ASI selama 24 jam terakhir.\n3. Dokumentasikan status imunisasi serta riwayat penyakit terakhir sebagai faktor yang mempengaruhi gizi.\n4. Masukkan semua data ke dalam formulir monitoring gizi Puskesmas dan beri kode kunjungan pertama.\n5. Jadwalkan kunjungan kontrol ulang dalam 1 bulan untuk evaluasi perubahan antropometri dan asupan makanan.\n6. Berikan edukasi singkat kepada orang tua tentang pentingnya pencatatan pola makan dan pemantauan berat badan secara rutin."
+  },
+  {
+    "case_id": 38,
+    "patient_category": "Ibu Hamil",
+    "reference_priority": "medium",
+    "priority_score": 4,
+    "active_trigger_rules": [
+      {
+        "rule": "no_monitoring_record",
+        "reason": "Pasien belum memiliki riwayat rekam monitoring gizi berkala.",
+        "weight": 4,
+        "evidence": null,
+        "reason_id": "Pasien belum memiliki catatan monitoring gizi yang dapat digunakan untuk evaluasi awal."
+      }
+    ],
+    "synthesized_whatsapp_message": "\ud83d\udc4b *Halo Ibu Kartika*!\n\n\ud83e\udd30 *Catatan kondisi*: Kami mencatat belum ada data pemantauan gizi sebelumnya, jadi penting untuk memulai penilaian agar kehamilan Ibu tetap sehat.\n\n\ud83e\udd57 *Tips nutrisi*: \n- Konsumsi 5 porsi sayur & buah tiap hari.\n- Sertakan 2\u20113 porsi sumber protein (ikan, ayam tanpa kulit, tahu/tempe).\n- Pilih karbohidrat komplek seperti nasi merah, ubi, atau gandum.\n- Tambahkan produk susu atau kacang\u2011kacangan untuk kalsium.\n- Minum suplemen zat besi + asam folat sesuai anjuran.\n\n\ud83e\ude7a *Jadwal kontrol*: Kami mengundang Ibu untuk datang ke Puskesmas pada *tanggal 12 Oktober 2026* pukul 08.00 WIB untuk pemeriksaan berat badan, lingkar lengan, dan tes darah.\n\n\u2728 *Semangat terus, Ibu!* Kami siap mendukung kesehatan Ibu dan bayi. Sampai jumpa di Puskesmas! \ud83d\ude0a",
+    "clinical_action_recommendation": "1. Buat catatan baseline gizi ibu hamil: timbang, tinggi badan, indeks massa tubuh (BMI), lingkar lengan atas (MUAC), serta pemeriksaan hemoglobin (Hb) dan status gula darah.\n2. Lakukan wawancara 24\u2011jam recall diet untuk menilai asupan kalori, protein, zat besi, kalsium, dan vitamin penting lainnya.\n3. Berikan edukasi pola makan seimbang pada kehamilan: 5 porsi sayur & buah, 2\u20113 porsi protein (ikan, daging tanpa lemak, kacang\u2011kacangan), 3 porsi karbohidrat komplek, serta produk susu atau sumber kalsium.\n4. Anjurkan suplementasi zat besi 60\u202fmg + asam folat 400\u202f\u00b5g per hari sesuai protokol Puskesmas, dan catat kepatuhan.\n5. Jadwalkan kunjungan kontrol gizi dalam 2 minggu untuk evaluasi data baseline dan penyesuaian rencana makanan.\n6. Dokumentasikan semua temuan dan intervensi pada kartu antenatal serta lembar monitoring gizi.\n7. Jika terdapat risiko malnutrisi (BMI <18,5 atau MUAC <23\u202fcm) atau anemia (Hb <11\u202fg/dL), segera rujuk ke dokter atau program BBLK untuk penanganan lebih lanjut."
+  },
+  {
+    "case_id": 40,
+    "patient_category": "Balita",
+    "reference_priority": "medium",
+    "priority_score": 4,
+    "active_trigger_rules": [
+      {
+        "rule": "no_monitoring_record",
+        "reason": "Pasien belum memiliki riwayat rekam monitoring gizi berkala.",
+        "weight": 4,
+        "evidence": null,
+        "reason_id": "Pasien belum memiliki catatan monitoring gizi yang dapat digunakan untuk evaluasi awal."
+      }
+    ],
+    "synthesized_whatsapp_message": "*\ud83d\udc4b Halo, Ibu/Keluarga Kenzie!* \n\n*\ud83d\udccc Kondisi Gizi Balita*\nSaat ini belum ada catatan pemantauan gizi Kenzie, sehingga penting untuk melakukan penilaian awal agar pertumbuhan optimal dapat terpantau.\n\n*\ud83e\udd57 Tips Asupan Makanan*\n- Jika Kenzie berusia <6\u202fbulan, teruskan pemberian ASI eksklusif setiap 2\u20113\u202fjam.\n- Jika \u22656\u202fbulan, perkenalkan MPASI yang beragam: sayur, buah, protein (ikan/ayam/tempe), karbohidrat (nasi/ubi), dan lemak sehat.\n- Sajikan makanan dalam porsi kecil, 2\u20113 kali sehari, dan tambahkan camilan sehat seperti buah potong.\n- Pastikan Kenzie minum cukup air putih setiap hari.\n\n*\ud83e\ude7a Tindak Lanjut*\n- Silakan datang ke Puskesmas untuk penilaian gizi lengkap (berat, panjang/tinggi, lingkar kepala, MUAC) dalam **7\u202fhari ke depan**.\n- Bawalah buku KIA atau catatan imunisasi untuk memudahkan pencatatan.\n- Setelah penilaian, kami akan memberikan kartu pantau gizi dan jadwal kontrol bulanan.\n\n*\u2728 Semangat terus!*\nDengan pemantauan rutin, kita dapat memastikan Kenzie tumbuh sehat dan kuat. Terima kasih atas perhatian Ibu/Keluarga. Kami siap membantu kapan saja.\n\n*\ud83d\udca1 Info kontak*: 0812\u2011XXXX\u2011XXXX (Puskesmas) \u2013 jangan ragu menghubungi bila ada pertanyaan.",
+    "clinical_action_recommendation": "1. Jadwalkan penilaian gizi awal Kenzie Wulandari dalam 7 hari ke depan di Puskesmas.\n2. Lakukan pengukuran antropometri lengkap: berat badan, panjang/tinggi badan, lingkar kepala, dan MUAC.\n3. Catat pola makan harian menggunakan 24\u2011hour dietary recall serta frekuensi dan jenis makanan yang diberikan.\n4. Berikan edukasi kepada orang tua tentang pola makan balita usia Kenzie (misalnya ASI/ASI perah eksklusif <6 bulan atau pemberian MPASI bergizi seimbang jika \u22656 bulan) dengan menekankan variasi makanan dari 5 kelompok gizi.\n5. Serahkan dan jelaskan cara penggunaan dan pengisian Kartu Pantau Gizi Balita serta grafik pertumbuhan.\n6. Tentukan jadwal monitoring lanjutan: kontrol bulanan selama 3 bulan pertama, kemudian setiap 3 bulan sekali selama tahun pertama.\n7. Dokumentasikan semua data pada catatan elektronik dan berikan instruksi untuk melaporkan perubahan status gizi atau munculnya keluhan.\n8. Jika pada evaluasi ditemukan risiko gizi buruk atau kelebihan berat badan, rujuk segera ke ahli gizi untuk intervensi lanjutan."
+  },
+  {
+    "case_id": 42,
+    "patient_category": "Ibu Hamil",
+    "reference_priority": "high",
+    "priority_score": 8,
+    "active_trigger_rules": [
+      {
+        "rule": "no_monitoring_record",
+        "reason": "Pasien belum memiliki riwayat rekam monitoring gizi berkala.",
+        "weight": 4,
+        "evidence": null,
+        "reason_id": "Pasien belum memiliki catatan monitoring gizi yang dapat digunakan untuk evaluasi awal."
+      },
+      {
+        "rule": "pregnant_nutrition_risk_status",
+        "reason": "Status gizi ibu hamil berisiko KEK / Kurang Gizi.",
+        "weight": 4,
+        "evidence": {
+          "statusGizi": "Risiko KEK"
+        },
+        "reason_id": "Status gizi ibu hamil menunjukkan kondisi berisiko yang memerlukan pemantauan lanjutan."
+      }
+    ],
+    "synthesized_whatsapp_message": "\ud83d\udc4b *Halo Ibu Anita,*\n\nSaya dari Puskesmas ingin menginformasikan bahwa hasil asesmen menunjukkan status gizi Anda berada pada kategori *Risiko KEK*. Karena belum ada catatan monitoring gizi sebelumnya, penting bagi kita untuk memulai pemantauan secara rutin.\n\n*Tips gizi praktis:*\n- Tambahkan sumber protein seperti ikan, tempe, atau telur setiap hari.\n- Konsumsi sayuran hijau dan buah berwarna untuk vitamin serta mineral.\n- Pastikan asupan zat besi cukup, misalnya dengan mengonsumsi bayam, kacang merah, dan lauk berbumbu tomat.\n- Jangan lupa suplemen *Asam Folat* 400\u202f\u00b5g dan *Zat Besi* sesuai anjuran dokter.\n\n*Ajakan tindak lanjut:* Silakan datang ke Puskesmas pada hari **Senin, 14\u202fOktober 2026** untuk pemeriksaan awal (berat badan, tinggi badan, MUAC) dan konsultasi gizi. Kami akan menjadwalkan kontrol setiap 2 minggu.\n\n\u2728 Semoga kehamilan Ibu selalu sehat dan bahagia. Kami siap mendukung Anda! \ud83d\udccc",
+    "clinical_action_recommendation": "1. Buat catatan monitoring gizi awal pada Ibu Anita, meliputi anamnesis pola makan, riwayat kehamilan, dan faktor risiko.\n2. Lakukan pemeriksaan antropometri (berat badan, tinggi badan, lingkar lengan atas) serta tes laboratorium (Hb, ferritin) sesuai protokol KEK.\n3. Berikan konseling gizi khusus kehamilan berisiko KEK: peningkatan asupan energi 300\u202fkcal/hari, protein 1,1\u202fg/kg BB, zat besi 30\u202fmg/hari, serta suplemen asam folat 400\u202f\u00b5g.\n4. Jadwalkan kunjungan kontrol gizi tiap 2 minggu untuk evaluasi status gizi dan penyesuaian intervensi.\n5. Koordinasikan dengan dokter kebidanan untuk penilaian risiko obstetrik dan rujukan bila diperlukan.\n6. Dokumentasikan semua data di buku KIA dan sistem elektronik Puskesmas serta beri tanda pada formulir monitoring untuk follow\u2011up selanjutnya."
+  },
+  {
+    "case_id": 44,
+    "patient_category": "Balita",
+    "reference_priority": "high",
+    "priority_score": 8,
+    "active_trigger_rules": [
+      {
+        "rule": "no_monitoring_record",
+        "reason": "Pasien belum memiliki riwayat rekam monitoring gizi berkala.",
+        "weight": 4,
+        "evidence": null,
+        "reason_id": "Pasien belum memiliki catatan monitoring gizi yang dapat digunakan untuk evaluasi awal."
+      },
+      {
+        "rule": "toddler_risk_nutrition_status",
+        "reason": "Status gizi balita terindikasi Berisiko Stunting / Gizi Kurang.",
+        "weight": 4,
+        "evidence": {
+          "statusGizi": "Gizi Kurang"
+        },
+        "reason_id": "Status gizi balita menunjukkan kondisi berisiko yang memerlukan pemantauan lanjutan."
+      }
+    ],
+    "synthesized_whatsapp_message": "*\ud83d\udc4b Halo, Ibu/Kepala Keluarga Khanza!* \n\n*\ud83d\udccc Kondisi Gizi Balita:* \nSaat ini Khanza berusia balita dengan status gizi *Gizi Kurang* dan belum memiliki catatan pemantauan sebelumnya. Hal ini menempatkan beliau pada risiko tinggi dan membutuhkan pemantauan rutin.\n\n*\ud83e\udd57 Tips Praktis Asupan:* \n- Sajikan makanan bergizi setiap 2\u20113 jam, termasuk *sumber protein* seperti ikan, telur, atau daging ayam.\n- Tambahkan sayur\u2011sayuran berwarna (bayam, wortel) dan buah segar untuk vitamin dan mineral.\n- Berikan makanan yang kaya zat besi (hati, kacang merah) serta kombinasikan dengan sumber vitamin C (jeruk, tomat) untuk meningkatkan penyerapan.\n- Pastikan kecukupan cairan, beri air putih atau susu bila memungkinkan.\n\n*\ud83e\ude7a Ajakan Tindak Lanjut:* \nSilakan datang ke Puskesmas untuk *pengukuran berat badan, tinggi badan, dan lingkar kepala* serta asesmen pola makan lengkap. Kami akan menjadwalkan kunjungan kontrol setiap bulan untuk memantau pertumbuhan Khanza.\n\n*\u2728 Semangat terus!* \nDengan perhatian dan makanan bergizi, kami yakin Khanza dapat mencapai pertumbuhan yang optimal. Kami siap membantu kapan saja. *Terima kasih!*",
+    "clinical_action_recommendation": "1. Jadwalkan kunjungan pertama balita untuk pengukuran antropometri lengkap (berat badan, tinggi/panjang badan, lingkar kepala) dan pencatatan status gizi baseline.\n2. Buat jadwal pemantauan gizi bulanan selama minimal 3 bulan ke depan, dengan pencatatan berat badan dan tinggi setiap kunjungan.\n3. Lakukan asesmen pola makan harian keluarga (24\u2011jam recall) untuk mengidentifikasi asupan energi, protein, dan mikronutrien yang kurang.\n4. Berikan konseling gizi kepada orang tua/caregiver tentang pemberian MPASI yang bergizi, termasuk makanan berbasis ikan, daging, telur, sayur\u2011sayuran berwarna, dan sumber zat besi.\n5. Jika diperlukan, rekomendasikan suplementasi zat besi atau multivitamin sesuai pedoman nasional, dengan rujukan ke dokter bila ada tanda anemia.\n6. Dokumentasikan semua data di Rekam Medis Elektronik Puskesmas dan beri label \"Balita \u2013 Risiko Gizi Kurang\" untuk prioritas tindak lanjut.\n7. Koordinasikan dengan petugas posyandu setempat untuk mendukung edukasi gizi dan pemantauan pertumbuhan di rumah."
+  },
+  {
+    "case_id": 52,
+    "patient_category": "Ibu Hamil",
+    "reference_priority": "high",
+    "priority_score": 9,
+    "active_trigger_rules": [
+      {
+        "rule": "no_monitoring_record",
+        "reason": "Pasien belum memiliki riwayat rekam monitoring gizi berkala.",
+        "weight": 4,
+        "evidence": null,
+        "reason_id": "Pasien belum memiliki catatan monitoring gizi yang dapat digunakan untuk evaluasi awal."
+      },
+      {
+        "rule": "pregnant_low_lila",
+        "reason": "Ukuran LILA ibu hamil di bawah ambang batas (< 23.5 cm / Risiko KEK).",
+        "weight": 5,
+        "evidence": {
+          "LILA": 23,
+          "threshold": 23.5
+        },
+        "reason_id": "Pengukuran LILA ibu hamil berada di bawah ambang pemantauan yang memerlukan tindak lanjut."
+      }
+    ],
+    "synthesized_whatsapp_message": "*Halo Ibu Dewi* \ud83d\udc4b\n\n*Catatan gizi ibu hamil:* Kami mencatat LILA Ibu saat ini 23\u202fcm, sedikit di bawah batas aman (23,5\u202fcm). Saat ini tidak ada keluhan, namun penting untuk memantau asupan gizi demi kesehatan Ibu dan bayi.\n\n*Tips praktis untuk meningkatkan gizi:* \n- Tambahkan 300\u202fkcal ekstra per hari, misalnya dengan cemilan sehat seperti kacang, pisang, atau roti gandum.\n- Konsumsi 2\u20113 porsi sumber protein (ikan, tempe, tahu, daging tanpa lemak) setiap hari.\n- Perbanyak sayur hijau dan buah berwarna untuk zat besi dan asam folat.\n- Pastikan minum suplemen zat besi\u202f+\u202fasam folat serta kalsium sesuai anjuran dokter.\n\n*Ajakan tindak lanjut:* Silakan datang ke Puskesmas untuk asesmen gizi pertama dan pengukuran LILA lanjutan. Kami akan menjadwalkan kunjungan dalam 1\u20112 minggu ke depan.\n\nSemangat terus, Ibu! \ud83c\udf1f\n\n*Tim Gizi Puskesmas* \ud83e\ude7a",
+    "clinical_action_recommendation": "1. Jadwalkan kunjungan asesmen gizi pertama untuk Ibu Hamil Dewi Wardani guna memperoleh data antropometri lengkap (berat badan, tinggi badan, LILA) dan riwayat diet.\n2. Lakukan pencatatan LILA baseline (23\u202fcm) dan bandingkan dengan ambang batas 23,5\u202fcm; catat sebagai indikator risiko gizi rendah.\n3. Berikan konseling gizi terfokus pada peningkatan asupan energi dan protein (contoh: tambahan 300\u202fkcal/hari, 15\u202fg protein/hari) serta sumber makanan kaya zat besi dan asam folat.\n4. Pastikan pemberian suplemen standar kehamilan (tablet zat besi\u202f+\u202fasam folat, kalsium) sesuai protokol Puskesmas; catat kepatuhan.\n5. Buat rencana pemantauan LILA setiap 2\u202fminggu hingga mencapai \u226523,5\u202fcm, serta timbang berat badan tiap kunjungan.\n6. Isi formulir monitoring gizi (Food Frequency Questionnaire) untuk mengidentifikasi pola makan yang kurang.\n7. Jika LILA tetap di bawah ambang setelah 2\u202fminggu atau terdapat penurunan berat badan >2\u202fkg, rujuk ke dokter kebidanan untuk evaluasi risiko komplikasi.\n8. Dokumentasikan semua temuan dan rencana tindak lanjut dalam rekam medis elektronik."
+  },
+  {
+    "case_id": 54,
+    "patient_category": "Balita",
+    "reference_priority": "medium",
+    "priority_score": 4,
+    "active_trigger_rules": [
+      {
+        "rule": "no_monitoring_record",
+        "reason": "Pasien belum memiliki riwayat rekam monitoring gizi berkala.",
+        "weight": 4,
+        "evidence": null,
+        "reason_id": "Pasien belum memiliki catatan monitoring gizi yang dapat digunakan untuk evaluasi awal."
+      }
+    ],
+    "synthesized_whatsapp_message": "*\ud83d\udc4b Halo, Ibu/Bapak!* \n\n*\ud83d\udccc Catatan Kondisi Gizi:* \nSaat ini, belum ada data pemantauan gizi untuk Fatih Kusuma, sehingga kami belum dapat menilai status gizi secara tepat. Tidak ada keluhan aktif, namun penting untuk memulai pencatatan sejak dini.\n\n*\ud83e\udd57 Tips Praktis Asupan:* \n- Berikan ASI eksklusif atau susu formula sesuai usia tiap 2-3 jam.\n- Tambahkan makanan pendamping ASI (MPASI) yang kaya protein seperti ikan, telur, dan kacang-kacangan mulai usia 6 bulan.\n- Sajikan buah dan sayur berwarna-warni setiap hari untuk vitamin & mineral.\n- Catat pola makan harian dalam notebook kecil atau aplikasi sederhana.\n\n*\ud83e\ude7a Ajakan Tindak Lanjut:* \nSilakan jadwalkan kunjungan ke Puskesmas untuk pengukuran berat, panjang, dan lingkar lengan atas serta pencatatan data gizi lengkap. Kami rekomendasikan kunjungan pertama dalam 7 hari ke depan.\n\n*\u2728 Penutup:* \nKami siap mendukung pertumbuhan sehat Fatih. Jangan ragu menghubungi kami bila ada pertanyaan. Semangat terus menjaga gizi keluarga! \ud83d\udca1",
+    "clinical_action_recommendation": "1. Jadwalkan kunjungan awal untuk melakukan pengukuran antropometri balita (berat badan, panjang/tinggi badan, dan lingkar lengan atas) serta pencatatan status gizi secara lengkap.\n2. Buat formulir monitoring gizi baru pada sistem, termasuk data imunisasi, pola makan, dan riwayat kesehatan anak.\n3. Berikan edukasi kepada orang tua/caregiver tentang pentingnya pencatatan harian asupan makanan, frekuensi makan, dan sumber protein serta mikronutrien.\n4. Rencanakan kunjungan kontrol berulang setiap 1 bulan selama 3 bulan pertama untuk memantau pertumbuhan dan menyesuaikan intervensi gizi.\n5. Dokumentasikan semua temuan dan edukasi pada rekam medis elektronik, serta beri tanda \ud83d\udccc pada catatan bahwa balita ini memerlukan pemantauan rutin."
+  },
+  {
+    "case_id": 56,
+    "patient_category": "Ibu Hamil",
+    "reference_priority": "high",
+    "priority_score": 8,
+    "active_trigger_rules": [
+      {
+        "rule": "no_monitoring_record",
+        "reason": "Pasien belum memiliki riwayat rekam monitoring gizi berkala.",
+        "weight": 4,
+        "evidence": null,
+        "reason_id": "Pasien belum memiliki catatan monitoring gizi yang dapat digunakan untuk evaluasi awal."
+      },
+      {
+        "rule": "pregnant_nutrition_risk_status",
+        "reason": "Status gizi ibu hamil berisiko KEK / Kurang Gizi.",
+        "weight": 4,
+        "evidence": {
+          "statusGizi": "Kurang Gizi"
+        },
+        "reason_id": "Status gizi ibu hamil menunjukkan kondisi berisiko yang memerlukan pemantauan lanjutan."
+      }
+    ],
+    "synthesized_whatsapp_message": "*Halo Ibu Dian* \ud83d\udc4b\n\n*Status gizi Anda* saat ini tergolong *Kurang Gizi* dan termasuk kategori *high priority*. Karena belum ada catatan pemantauan sebelumnya, kita perlu memulai pemantauan rutin untuk memastikan pertumbuhan janin dan kesehatan Ibu optimal.\n\n*Tips praktis asupan makanan* \ud83e\udd57\n- Tambahkan sumber protein seperti telur, tempe, tahu, ikan, atau daging tanpa lemak setiap hari.\n- Konsumsi makanan kaya zat besi seperti bayam, kangkung, hati ayam, dan kacang merah. Padukan dengan sumber vitamin C (jeruk, tomat) untuk meningkatkan penyerapan.\n- Tingkatkan asupan kalori dengan 300 kcal/hari melalui camilan sehat (kacang, buah kering, roti gandum).\n- Minum cukup air putih minimal 8 gelas per hari.\n- Pastikan rutin mengonsumsi tablet zat besi\u2011asam folat (IFA) sesuai anjuran.\n\n*Ajakan tindak lanjut* \ud83d\udccc\nSilakan datang ke Puskesmas **[Nama Puskesmas]** untuk pemeriksaan awal berat badan, lingkar lengan, dan konseling gizi. Jadwal kunjungan pertama dapat Ibu atur dalam **2 minggu ke depan** atau lebih cepat bila memungkinkan.\n\n*Semangat terus, Ibu!* \u2728\nKami siap membantu Ibu menjaga kesehatan dan perkembangan buah hati. Jangan ragu menghubungi kami jika ada pertanyaan.\n\n*Salam sehat,*\nTim Gizi Puskesmas",
+    "clinical_action_recommendation": "1. Jadwalkan assessment gizi awal termasuk pengukuran berat badan, tinggi badan, dan lingkar lengan atas (MUAC) serta catat riwayat makanan ibu hamil.\n2. Berikan konseling gizi terfokus pada peningkatan asupan kalori (\u2248300 kcal/hari) dan protein (\u224815 g/hari) dengan sumber makanan seperti daging tanpa lemak, ikan, telur, kacang\u2011kacangan, serta sayur\u2011sayuran hijau.\n3. Tekankan pentingnya suplementasi zat besi\u2011asam folat (IFA) sesuai protokol Puskesmas; pastikan stok tersedia dan catat kepatuhan.\n4. Siapkan lembar pemantauan gizi (nutrition card) untuk pencatatan mingguan berat badan dan pola makan.\n5. Atur kunjungan kontrol kembali dalam 2 minggu untuk mengevaluasi kenaikan berat badan dan kepatuhan diet/suplemen.\n6. Koordinasikan kunjungan rumah oleh kader kesehatan untuk memantau asupan makanan dan memberikan edukasi tambahan.\n7. Dokumentasikan semua temuan dan rencana tindak lanjut di rekam medis elektronik."
+  },
+  {
+    "case_id": 57,
+    "patient_category": "Balita",
+    "reference_priority": "medium",
+    "priority_score": 4,
+    "active_trigger_rules": [
+      {
+        "rule": "no_monitoring_record",
+        "reason": "Pasien belum memiliki riwayat rekam monitoring gizi berkala.",
+        "weight": 4,
+        "evidence": null,
+        "reason_id": "Pasien belum memiliki catatan monitoring gizi yang dapat digunakan untuk evaluasi awal."
+      }
+    ],
+    "synthesized_whatsapp_message": "\ud83d\udc4b *Halo, Bapak/Ibu Adnan,*\n\n*Catatan kondisi:* Saat ini belum ada catatan pertumbuhan untuk Adnan, sehingga kami ingin memulai pemantauan gizi secara rutin.\n\n*Tips praktis:* Berikan 3 kali makan utama dengan porsi kecil tapi variatif setiap hari, sertakan sayur berwarna, buah segar, sumber protein (ikan, telur, daging tanpa lemak), serta karbohidrat kompleks (beras merah, kentang, ubi). Tambahkan camilan sehat seperti yoghurt, buah potong, atau kacang tanah halus. Pastikan ASI atau susu tetap menjadi bagian penting jika masih menyusui.\n\n*Ajakan tindak lanjut:* Silakan datang ke Puskesmas pada hari *[tanggal]* jam *[waktu]* untuk melakukan penimbangan, pengukuran tinggi/panjang badan, dan MUAC. Setelah itu kami akan mengisi lembar pemantauan gizi dan memberi panduan diet harian.\n\n*Penutup:* Terima kasih atas perhatian Bapak/Ibu. Dengan pemantauan rutin, pertumbuhan Adnan dapat terjaga optimal. Kami selalu siap membantu! \ud83c\udf1f",
+    "clinical_action_recommendation": "1. Lakukan penimbangan, pengukuran tinggi/panjang badan, dan lingkar lengan atas (MUAC) pada kunjungan pertama untuk memperoleh data antropometri dasar balita.\n2. Catat riwayat menyusui, pemberian MPASI, serta frekuensi dan jenis makanan yang dikonsumsi selama 3 hari terakhir.\n3. Masukkan semua data ke dalam lembar pemantauan gizi balita (KMS) dan pastikan tercatat di sistem Puskesmas.\n4. Edukasikan orang tua tentang pola makan seimbang untuk balita: 3 kali makan utama, 2-3 kali snack, variasi sayur, buah, protein, dan karbohidrat kompleks.\n5. Berikan lembar kontrol rumah untuk mencatat asupan harian dan berat badan bulanan.\n6. Jadwalkan kunjungan kontrol kembali dalam 4 minggu untuk evaluasi pertumbuhan dan penyesuaian intervensi.\n7. Jika terdapat penyimpangan pada antropometri atau masalah makan, rujuk ke dokter atau ahli gizi untuk penanganan lebih lanjut."
+  },
+  {
+    "case_id": 58,
+    "patient_category": "Ibu Hamil",
+    "reference_priority": "medium",
+    "priority_score": 6,
+    "active_trigger_rules": [
+      {
+        "rule": "medication_not_reported_today",
+        "reason": "Asupan obat atau suplemen belum dilaporkan hari ini.",
+        "weight": 3,
+        "evidence": {
+          "date": "2026-10-04",
+          "active_assignment_count": 2,
+          "reported_assignment_count": 0
+        },
+        "reason_id": "Konsumsi obat atau suplementasi belum dilaporkan pada hari ini."
+      },
+      {
+        "rule": "supplementary_food_not_reported_today",
+        "reason": "Konsumsi makanan tambahan belum dilaporkan hari ini.",
+        "weight": 3,
+        "evidence": {
+          "date": "2026-10-04",
+          "active_assignment_count": 2,
+          "reported_assignment_count": 0
+        },
+        "reason_id": "Konsumsi Makanan Tambahan (PMT) belum dilaporkan pada hari ini."
+      }
+    ],
+    "synthesized_whatsapp_message": "*\ud83d\udc4b Halo Ibu Melati,*\n\n*\ud83d\udccc Catatan kondisi:* Kami belum menerima laporan Ibu tentang konsumsi suplemen dan Makanan Tambahan (PMT) pada hari ini (04 Oktober 2026). Karena Ibu sedang hamil, keduanya sangat penting untuk kesehatan Ibu dan perkembangan janin.\n\n*\ud83e\udd57 Tips praktis:* \n- Pastikan mengonsumsi suplemen zat besi & asam folat sesuai anjuran dokter setiap hari.\n- Tambahkan makanan kaya zat besi seperti daging merah, hati ayam, bayam, atau kacang merah dalam menu.\n- Konsumsi buah kaya vitamin C (jeruk, pepaya, kiwi) bersamaan dengan makanan berserat zat besi untuk meningkatkan penyerapan.\n- Jika memungkinkan, tetap makan PMT yang telah disediakan (misalnya bubur kacang hijau atau susu fortifikasi) setiap hari.\n\n*\ud83e\ude7a Ajakan tindak lanjut:* Silakan laporkan kembali konsumsi suplemen dan PMT melalui aplikasi atau WA ini. Jika ada kendala atau pertanyaan, jangan ragu menghubungi kami. Kami juga mengundang Ibu untuk datang ke Puskesmas untuk kontrol gizi dalam 2 minggu ke depan.\n\n*\u2728 Penutup:* Tetap semangat, Ibu! Konsistensi nutrisi akan membantu Ibu dan buah hati tumbuh sehat. Kami siap mendukung Ibu setiap langkah.\n\n*\ud83d\udca1 Salam hangat dari tim gizi Puskesmas.*",
+    "clinical_action_recommendation": "1. Hubungi Ibu Melati Pratama via telepon/WhatsApp untuk menanyakan status konsumsi suplemen (zat besi, asam folat) pada tanggal 2026-10-04.\n2. Konfirmasikan apakah Ibu Melati telah mengonsumsi Makanan Tambahan (PMT) pada hari yang sama; jika belum, jelaskan pentingnya PMT bagi pertumbuhan janin.\n3. Catat dan perbaharui status pelaporan harian di sistem setelah mendapatkan informasi dari pasien.\n4. Berikan edukasi singkat tentang sumber makanan kaya zat besi (daging merah, hati ayam, bayam, kacang merah) dan cara meningkatkan penyerapan dengan vitamin C (jeruk, pepaya).\n5. Jadwalkan kunjungan kontrol gizi selanjutnya dalam 2 minggu ke depan untuk memantau berat badan dan kepatuhan suplemen/PMT.\n6. Dokumentasikan semua interaksi dan identifikasi hambatan (misalnya ketersediaan suplemen atau PMT) untuk ditindaklanjuti oleh tim Puskesmas."
+  },
+  {
+    "case_id": 62,
+    "patient_category": "Balita",
+    "reference_priority": "high",
+    "priority_score": 11,
+    "active_trigger_rules": [
+      {
+        "rule": "active_complaint",
+        "reason": "Pasien memiliki keluhan aktif yang belum ditanggapi.",
+        "weight": 5,
+        "evidence": {
+          "active_statuses": [
+            "belum_dibalas"
+          ]
+        },
+        "reason_id": "Pasien memiliki keluhan aktif yang memerlukan tindak lanjut tenaga kesehatan."
+      },
+      {
+        "rule": "medication_not_reported_today",
+        "reason": "Asupan obat atau suplemen belum dilaporkan hari ini.",
+        "weight": 3,
+        "evidence": {
+          "date": "2026-10-04",
+          "active_assignment_count": 2,
+          "reported_assignment_count": 0
+        },
+        "reason_id": "Konsumsi obat atau suplementasi belum dilaporkan pada hari ini."
+      },
+      {
+        "rule": "supplementary_food_not_reported_today",
+        "reason": "Konsumsi makanan tambahan belum dilaporkan hari ini.",
+        "weight": 3,
+        "evidence": {
+          "date": "2026-10-04",
+          "active_assignment_count": 2,
+          "reported_assignment_count": 0
+        },
+        "reason_id": "Konsumsi Makanan Tambahan (PMT) belum dilaporkan pada hari ini."
+      }
+    ],
+    "synthesized_whatsapp_message": "\ud83d\udc4b *Halo, Ibu/Bapak Mikayla!* \n\n\ud83e\ude7a *Kondisi saat ini*: Kami mencatat adanya bintik merah gatal pada pipi dan leher setelah mengonsumsi telur atau ikan, diare ringan, serta rasa pusing ketika berdiri. \n\n\ud83e\udd57 *Tips praktis*: \n- Hindari sementara semua makanan berprotein tinggi (telur, ikan, susu) sampai kami dapat melakukan evaluasi lebih lanjut. \n- Berikan ORS (oral rehydration solution) 1\u20112\u202fml/kg setiap jam selama 4\u20116\u202fjam untuk mencegah dehidrasi. \n- Catat semua makanan yang diberikan selama 3\u202fhari ke depan dalam *food diary* untuk membantu menemukan pemicu alergi. \n- Pastikan Mikayla tetap mendapatkan suplemen vitamin dan PMT yang sudah disiapkan; jika belum diberikan hari ini, beri tahu kami segera.\n\n\ud83d\udcc5 *Ajakan tindak lanjut*: Kami mengundang Ibu/Bapak untuk datang ke Puskesmas dalam **48 jam ke depan** untuk pemeriksaan fisik lengkap, timbang/tinggi, serta pemeriksaan darah bila diperlukan. Jika ada perubahan kondisi seperti ruam semakin menyebar, diare berat, atau pusing berlanjut, segera hubungi nomor darurat kami.\n\n\u2728 *Semangat terus!* Kami siap membantu Mikayla kembali sehat dan kuat. Terima kasih atas kerja samanya! \ud83d\udca1",
+    "clinical_action_recommendation": "1. **Evaluasi alergi**: Hubungi orang tua untuk menanyakan detail munculnya bintik merah setelah konsumsi telur/ikan, hentikan sementara semua makanan berprotein tinggi, dan catat sebagai alergi makanan potensial. Jika reaksi berlanjut atau memburuk, rujuk ke dokter anak untuk evaluasi alergi (skin prick atau tes IgE).\n2. **Penilaian hidrasi dan diare**: Periksa tanda-tanda dehidrasi (mulut kering, urine berwarna gelap, berat badan menurun). Berikan Oral Rehydration Solution (ORS) 1\u20112\u202fml/kg/ jam selama 4\u20116\u202fjam pertama, kemudian lanjutkan pemantauan feses.\n3. **Investigasi pusing/lemak**: Karena terdapat keluhan pusing setelah berdiri, lakukan pemeriksaan tekanan darah, nadi, dan hemoglobin untuk menyingkirkan anemia atau hipovolemia.\n4. **Verifikasi kepatuhan suplemen & PMT**: Karena belum ada laporan konsumsi obat/suplemen atau PMT hari ini, hubungi orang tua untuk memastikan anak menerima suplementasi mikronutrien (mis. vitamin A, zat besi) dan paket makanan tambahan (PMT) yang telah diberikan. Jika belum, atur penyerahan ulang.\n5. **Edukasi orang tua**: Ajarkan cara mencatat makanan yang diberikan (food diary) selama 3\u202fhari ke depan, fokus pada protein hewani yang ditoleransi. Berikan contoh menu alternatif (daging ayam tanpa kulit, tempe, kacang hijau yang dihaluskan) dan cara mengamati tanda alergi.\n6. **Jadwalkan kunjungan lanjutan**: Tetapkan pertemuan di Puskesmas dalam 48\u202fjam untuk pemeriksaan fisik lengkap, timbang/tinggi, dan peninjauan hasil laboratorium bila diperlukan. Jika kondisi memburuk sebelum itu, minta orang tua menghubungi nomor darurat.\n7. **Update catatan monitoring**: Masukkan data berat dan tinggi terbaru (11.5\u202fkg / 83.4\u202fcm) ke grafik pertumbuhan, pastikan status masih *Normal* dan beri catatan khusus mengenai alergi dan diare.\n8. **Dokumentasi**: Catat semua tindakan di rekam medis elektronik, termasuk tanggal kontak telepon, rekomendasi diet, dan rencana kontrol berikutnya."
+  }
+]

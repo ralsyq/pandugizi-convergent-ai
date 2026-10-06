@@ -1,0 +1,16 @@
+{
+  "thresholds": {
+    "T1_medium_priority": 4,
+    "T2_high_priority": 8
+  },
+  "rule_weights": {
+    "active_complaint": 5,
+    "pregnant_low_lila_under_23_5cm": 5,
+    "toddler_stunting_or_severe_status": 5,
+    "toddler_risk_nutrition_status": 4,
+    "monitoring_overdue_over_30_days": 4,
+    "no_baseline_monitoring_record": 4,
+    "supplementary_food_pmt_unreported": 3,
+    "medication_micronutrient_unreported": 3
+  }
+}

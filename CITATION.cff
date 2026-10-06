@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or benchmark dataset in your research, please cite our paper."
+title: "PanduGizi: An Explainable and Generative Convergent AI Architecture for Maternal and Child Nutritional Follow-Up in Primary Healthcare"
+authors:
+  - family-names: Agustin
+    given-names: Raisya Putri
+    affiliation: "Information Systems Department, School of Information Systems, Bina Nusantara University, Jakarta, Indonesia"
+    email: "raisya.agustin@binus.ac.id"
+  - family-names: Miranda
+    given-names: Eka
+    affiliation: "Information Systems Department, School of Information Systems, Bina Nusantara University, Jakarta, Indonesia"
+    email: "ekamiranda@binus.ac.id"
+version: 1.0.0
+date-released: 2026-10-06
+license: MIT
+repository-code: "https://github.com/raisya-agustin/pandugizi-convergent-ai"
+conference:
+  name: "2026 International Conference on Applied Artificial Intelligence and Digital Expert Systems (ICAIDES)"

@@ -1,0 +1,6 @@
+# Core test and evaluation tools
+pytest>=7.0.0
+
+# Optional live API integration and environment loading
+python-dotenv>=1.0.0
+requests>=2.28.0

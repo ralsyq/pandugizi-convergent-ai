@@ -1,0 +1,361 @@
+[
+    {
+        "pasien_id": "3218098948758669",
+        "kategori": "balita",
+        "reference_priority": "high",
+        "baseline_priority": "medium",
+        "baseline_match": false,
+        "proposed_priority": "high",
+        "proposed_match": true,
+        "triggers": [
+            "no_monitoring_record",
+            "toddler_risk_nutrition_status"
+        ]
+    },
+    {
+        "pasien_id": "3295995329542213",
+        "kategori": "balita",
+        "reference_priority": "medium",
+        "baseline_priority": "low",
+        "baseline_match": false,
+        "proposed_priority": "medium",
+        "proposed_match": true,
+        "triggers": [
+            "no_monitoring_record"
+        ]
+    },
+    {
+        "pasien_id": "3221040221995368",
+        "kategori": "ibu hamil",
+        "reference_priority": "medium",
+        "baseline_priority": "medium",
+        "baseline_match": true,
+        "proposed_priority": "medium",
+        "proposed_match": true,
+        "triggers": [
+            "active_complaint"
+        ]
+    },
+    {
+        "pasien_id": "3234008987030367",
+        "kategori": "balita",
+        "reference_priority": "high",
+        "baseline_priority": "medium",
+        "baseline_match": false,
+        "proposed_priority": "high",
+        "proposed_match": true,
+        "triggers": [
+            "no_monitoring_record",
+            "toddler_risk_nutrition_status"
+        ]
+    },
+    {
+        "pasien_id": "3285321187186413",
+        "kategori": "ibu hamil",
+        "reference_priority": "medium",
+        "baseline_priority": "high",
+        "baseline_match": false,
+        "proposed_priority": "medium",
+        "proposed_match": true,
+        "triggers": [
+            "active_complaint"
+        ]
+    },
+    {
+        "pasien_id": "3299773174618964",
+        "kategori": "ibu hamil",
+        "reference_priority": "medium",
+        "baseline_priority": "medium",
+        "baseline_match": true,
+        "proposed_priority": "medium",
+        "proposed_match": true,
+        "triggers": [
+            "pregnant_low_lila"
+        ]
+    },
+    {
+        "pasien_id": "3283703146617542",
+        "kategori": "ibu hamil",
+        "reference_priority": "medium",
+        "baseline_priority": "low",
+        "baseline_match": false,
+        "proposed_priority": "medium",
+        "proposed_match": true,
+        "triggers": [
+            "no_monitoring_record"
+        ]
+    },
+    {
+        "pasien_id": "3298798546692586",
+        "kategori": "balita",
+        "reference_priority": "high",
+        "baseline_priority": "high",
+        "baseline_match": true,
+        "proposed_priority": "high",
+        "proposed_match": true,
+        "triggers": [
+            "active_complaint",
+            "no_monitoring_record",
+            "toddler_risk_nutrition_status"
+        ]
+    },
+    {
+        "pasien_id": "3254154982220941",
+        "kategori": "balita",
+        "reference_priority": "medium",
+        "baseline_priority": "medium",
+        "baseline_match": true,
+        "proposed_priority": "medium",
+        "proposed_match": true,
+        "triggers": [
+            "latest_monitoring_indicates_risk"
+        ]
+    },
+    {
+        "pasien_id": "3291019457021321",
+        "kategori": "balita",
+        "reference_priority": "medium",
+        "baseline_priority": "medium",
+        "baseline_match": true,
+        "proposed_priority": "medium",
+        "proposed_match": true,
+        "triggers": [
+            "latest_monitoring_indicates_risk"
+        ]
+    },
+    {
+        "pasien_id": "3249475771145626",
+        "kategori": "ibu hamil",
+        "reference_priority": "medium",
+        "baseline_priority": "medium",
+        "baseline_match": true,
+        "proposed_priority": "medium",
+        "proposed_match": true,
+        "triggers": [
+            "pregnant_low_lila"
+        ]
+    },
+    {
+        "pasien_id": "3203461522427424",
+        "kategori": "balita",
+        "reference_priority": "low",
+        "baseline_priority": "low",
+        "baseline_match": true,
+        "proposed_priority": "low",
+        "proposed_match": true,
+        "triggers": []
+    },
+    {
+        "pasien_id": "3248539569018259",
+        "kategori": "balita",
+        "reference_priority": "medium",
+        "baseline_priority": "medium",
+        "baseline_match": true,
+        "proposed_priority": "medium",
+        "proposed_match": true,
+        "triggers": [
+            "toddler_risk_nutrition_status"
+        ]
+    },
+    {
+        "pasien_id": "3206594585875869",
+        "kategori": "balita",
+        "reference_priority": "medium",
+        "baseline_priority": "medium",
+        "baseline_match": true,
+        "proposed_priority": "medium",
+        "proposed_match": true,
+        "triggers": [
+            "toddler_risk_nutrition_status"
+        ]
+    },
+    {
+        "pasien_id": "3213120708127102",
+        "kategori": "balita",
+        "reference_priority": "medium",
+        "baseline_priority": "medium",
+        "baseline_match": true,
+        "proposed_priority": "medium",
+        "proposed_match": true,
+        "triggers": [
+            "active_complaint"
+        ]
+    },
+    {
+        "pasien_id": "3234252653091814",
+        "kategori": "ibu hamil",
+        "reference_priority": "low",
+        "baseline_priority": "low",
+        "baseline_match": true,
+        "proposed_priority": "low",
+        "proposed_match": true,
+        "triggers": []
+    },
+    {
+        "pasien_id": "3233085652727134",
+        "kategori": "ibu hamil",
+        "reference_priority": "medium",
+        "baseline_priority": "high",
+        "baseline_match": false,
+        "proposed_priority": "medium",
+        "proposed_match": true,
+        "triggers": [
+            "active_complaint"
+        ]
+    },
+    {
+        "pasien_id": "3210144820410005",
+        "kategori": "balita",
+        "reference_priority": "medium",
+        "baseline_priority": "low",
+        "baseline_match": false,
+        "proposed_priority": "medium",
+        "proposed_match": true,
+        "triggers": [
+            "no_monitoring_record"
+        ]
+    },
+    {
+        "pasien_id": "3246051240722826",
+        "kategori": "balita",
+        "reference_priority": "medium",
+        "baseline_priority": "medium",
+        "baseline_match": true,
+        "proposed_priority": "medium",
+        "proposed_match": true,
+        "triggers": [
+            "latest_monitoring_indicates_risk"
+        ]
+    },
+    {
+        "pasien_id": "3261478267253335",
+        "kategori": "balita",
+        "reference_priority": "medium",
+        "baseline_priority": "medium",
+        "baseline_match": true,
+        "proposed_priority": "medium",
+        "proposed_match": true,
+        "triggers": [
+            "active_complaint"
+        ]
+    },
+    {
+        "pasien_id": "3211193675908426",
+        "kategori": "balita",
+        "reference_priority": "low",
+        "baseline_priority": "low",
+        "baseline_match": true,
+        "proposed_priority": "low",
+        "proposed_match": true,
+        "triggers": []
+    },
+    {
+        "pasien_id": "3286368832281517",
+        "kategori": "balita",
+        "reference_priority": "high",
+        "baseline_priority": "medium",
+        "baseline_match": false,
+        "proposed_priority": "high",
+        "proposed_match": true,
+        "triggers": [
+            "toddler_risk_nutrition_status",
+            "latest_monitoring_indicates_risk"
+        ]
+    },
+    {
+        "pasien_id": "3282021096255683",
+        "kategori": "ibu hamil",
+        "reference_priority": "medium",
+        "baseline_priority": "medium",
+        "baseline_match": true,
+        "proposed_priority": "medium",
+        "proposed_match": true,
+        "triggers": [
+            "active_complaint"
+        ]
+    },
+    {
+        "pasien_id": "3230748867679199",
+        "kategori": "balita",
+        "reference_priority": "high",
+        "baseline_priority": "medium",
+        "baseline_match": false,
+        "proposed_priority": "high",
+        "proposed_match": true,
+        "triggers": [
+            "toddler_risk_nutrition_status",
+            "latest_monitoring_indicates_risk"
+        ]
+    },
+    {
+        "pasien_id": "3275264780251155",
+        "kategori": "ibu hamil",
+        "reference_priority": "low",
+        "baseline_priority": "low",
+        "baseline_match": true,
+        "proposed_priority": "low",
+        "proposed_match": true,
+        "triggers": []
+    },
+    {
+        "pasien_id": "3280639070421042",
+        "kategori": "ibu hamil",
+        "reference_priority": "medium",
+        "baseline_priority": "medium",
+        "baseline_match": true,
+        "proposed_priority": "medium",
+        "proposed_match": true,
+        "triggers": [
+            "pregnant_low_lila"
+        ]
+    },
+    {
+        "pasien_id": "3224080801388245",
+        "kategori": "balita",
+        "reference_priority": "low",
+        "baseline_priority": "low",
+        "baseline_match": true,
+        "proposed_priority": "low",
+        "proposed_match": true,
+        "triggers": []
+    },
+    {
+        "pasien_id": "3218592159554704",
+        "kategori": "ibu hamil",
+        "reference_priority": "high",
+        "baseline_priority": "high",
+        "baseline_match": true,
+        "proposed_priority": "high",
+        "proposed_match": true,
+        "triggers": [
+            "no_monitoring_record",
+            "pregnant_low_lila"
+        ]
+    },
+    {
+        "pasien_id": "3244964388667374",
+        "kategori": "ibu hamil",
+        "reference_priority": "medium",
+        "baseline_priority": "unknown",
+        "baseline_match": false,
+        "proposed_priority": "medium",
+        "proposed_match": true,
+        "triggers": [
+            "pregnant_low_lila"
+        ]
+    },
+    {
+        "pasien_id": "3237168762487618",
+        "kategori": "ibu hamil",
+        "reference_priority": "high",
+        "baseline_priority": "high",
+        "baseline_match": true,
+        "proposed_priority": "high",
+        "proposed_match": true,
+        "triggers": [
+            "active_complaint",
+            "no_monitoring_record",
+            "pregnant_low_lila"
+        ]
+    }
+]
