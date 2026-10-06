@@ -148,7 +148,7 @@ The core research artifact has **zero mandatory third-party C-extensions** and r
 
 ```bash
 # Clone the repository
-git clone https://github.com/raisya-agustin/pandugizi-convergent-ai.git
+git clone https://github.com/ralsyq/pandugizi-convergent-ai.git
 cd pandugizi-convergent-ai
 
 # (Optional) Create virtual environment
