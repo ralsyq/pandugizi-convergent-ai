@@ -1,9 +1,8 @@
 # PanduGizi: Convergent AI Architecture for Maternal & Child Nutritional Follow-Up
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Python: 3.8+](https://img.shields.io/badge/Python-3.8%2B-green.svg)](https://www.python.org/)
-[![Reproducibility](https://img.shields.io/badge/IEEE%20Artifact-Reproducible-success.svg)]()
-[![Dataset: Zenodo CC-BY 4.0](https://img.shields.io/badge/Dataset-CC--BY%204.0-orange.svg)](data/)
+[![Reproducibility](https://img.shields.io/badge/Artifact-Reproducible-success.svg)]()
+[![DOI: Zenodo](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23142154-blue.svg)](https://doi.org/10.5281/zenodo.23142154)
 
 Official research replication package and standalone implementation for the paper:
 
@@ -27,6 +26,13 @@ While conventional symbolic rule-based clinical decision support systems offer d
    - `whatsapp_message`: An empathetic, personalized WhatsApp notification for mothers/caregivers formatted with culturally resonant greetings, dietary tips, and action calls.
 3. **Stage 3 (Resilience & Graceful Degradation):** When external API latency or network dropouts occur, an automated fallback engine deterministically generates verified clinical action plans and WhatsApp templates without crashing or emitting hallucinations (0% crash rate).
 4. **Human-in-the-Loop Oversight:** Attending healthcare personnel retain final clinical authority on the dashboard before message dispatch.
+
+---
+
+## 📦 Data & Code Availability
+
+> **DATA AND CODE AVAILABILITY**  
+> To support scientific reproducibility, the benchmark dataset and calibrated scoring rubric are publicly archived on Zenodo ([https://doi.org/10.5281/zenodo.23142154](https://doi.org/10.5281/zenodo.23142154)), while the complete Convergent AI source code, interactive demonstration scripts, and automated evaluation suite are openly available on GitHub ([https://github.com/ralsyq/pandugizi-convergent-ai](https://github.com/ralsyq/pandugizi-convergent-ai)).
 
 ---
 
@@ -76,29 +82,51 @@ While conventional symbolic rule-based clinical decision support systems offer d
 
 ## 📐 Algorithm 1: Two-Stage Convergent Follow-Up Pipeline
 
-$$\begin{aligned}
-\textbf{Require:} & \quad \text{Patient data } M, \text{ History } H, \text{ Weights } W = \{w_1, \dots, w_6\}, \text{ Thresholds } \{T_1, T_2\} \\
-\textbf{Ensure:}  & \quad \text{Action Plan } Rec, \text{ WhatsApp Message } Msg, \text{ Priority Level } L
-\end{aligned}$$
+```text
+Require: Patient monitoring vector M, Clinical history H, Indicator weights W = {w1..w6}, Thresholds {T1, T2}
+Ensure: Clinical action plan Rec, Empathetic patient message Msg, Priority level L
 
-1. $Score \leftarrow 0; \quad Triggers \leftarrow \emptyset$
-2. **if** $MissedMedication(M)$ **or** $MissedPMT(M)$ **then** $Score \leftarrow Score + w_1; Triggers \leftarrow Triggers \cup \{\text{missed\_intake}\}$
-3. **if** $PoorFoodRecord(M)$ **then** $Score \leftarrow Score + w_2; Triggers \leftarrow Triggers \cup \{\text{poor\_diet}\}$
-4. **if** $ActiveComplaint(M)$ **then** $Score \leftarrow Score + w_3; Triggers \leftarrow Triggers \cup \{\text{active\_complaint}\}$
-5. $\quad$ **if** $Severity(M) \ge \text{Moderate}$ **then** $Score \leftarrow Score + w_4$
-6. **if** $ScheduleOverdue(M) > 30\text{ days}$ **then** $Score \leftarrow Score + w_5; Triggers \leftarrow Triggers \cup \{\text{monitoring\_overdue}\}$
-7. **if** $AnthropometricRisk(M)$ ($LILA < 23.5\text{cm}$ or $Stunting$) **then** $Score \leftarrow Score + w_6; Triggers \leftarrow Triggers \cup \{\text{anthropometric\_risk}\}$
-8. **if** $Score < T_1$ **then** $L \leftarrow \text{'Low (Routine)'}$
-9. **else if** $Score < T_2$ **then** $L \leftarrow \text{'Medium (Reminder)'}$
-10. **else** $L \leftarrow \text{'High (Urgent)'}$
-11. **try:**
-12. $\quad Prompt \leftarrow AssemblePrompt(M, H, Score, L, Triggers)$
-13. $\quad Output \leftarrow LLMAgent.Generate(Prompt, Guardrails=\{InvariantPriority: L, NoPrescription: true\})$
-14. $\quad Rec \leftarrow Output.recommended\_action; \quad Msg \leftarrow Output.whatsapp\_message$
-15. **catch** $APIException \text{ or } Timeout$:
-16. $\quad Rec \leftarrow FallbackAction(Triggers, L); \quad Msg \leftarrow FallbackTemplate(M, Triggers, L)$
-17. $\{Rec, Msg\} \leftarrow ClinicianReviewAndApprove(Rec, Msg, L)$
-18. **return** $\{Rec, Msg, L, Score\}$
+/* STAGE 1: Deterministic Risk Triage & Clinical Guardrails */
+1:  PriorityScore ← 0, Triggers ← ∅
+2:  if MissedMedication(M) or MissedPMT(M) then
+3:      PriorityScore ← PriorityScore + w1; Triggers ← Triggers ∪ { 'missed_intake' }
+4:  end if
+5:  if PoorFoodRecord(M) then
+6:      PriorityScore ← PriorityScore + w2; Triggers ← Triggers ∪ { 'poor_dietary_intake' }
+7:  end if
+8:  if ActiveComplaintReported(M) then
+9:      PriorityScore ← PriorityScore + w3; Triggers ← Triggers ∪ { 'active_complaint' }
+10:     if ComplaintSeverity(M) ≥ Moderate then
+11:         PriorityScore ← PriorityScore + w4; Triggers ← Triggers ∪ { 'severe_complaint_level' }
+12:     end if
+13: end if
+14: if MonitoringScheduleOverdue(M) > 30 days then
+15:     PriorityScore ← PriorityScore + w5; Triggers ← Triggers ∪ { 'monitoring_overdue' }
+16: end if
+17: if AnthropometricRiskIndicated(M) (LILA < 23.5cm or Stunting) then
+18:     PriorityScore ← PriorityScore + w6; Triggers ← Triggers ∪ { 'anthropometric_risk' }
+19: end if
+20: if PriorityScore < T1 then L ← 'Low (Routine)'
+21: else if PriorityScore < T2 then L ← 'Medium (Reminder)'
+22: else L ← 'High (Urgent)'
+23: end if
+
+/* STAGE 2: Constrained Generative Synthesis & Graceful Fallback */
+24: ContextPrompt ← AssemblePrompt(M, H, PriorityScore, L, Triggers)
+25: try:
+26:     AIResponse ← GeminiAgent.Generate(ContextPrompt, Guardrails={ InvariantPriority: L, NoPrescription: true })
+27:     Rec ← AIResponse.recommended_action
+28:     Msg ← AIResponse.whatsapp_message
+29: catch APIException or Timeout:
+30:     /* Automated Graceful Degradation to Deterministic Template Engine */
+31:     Rec ← BuildDeterministicClinicalAction(Triggers, L)
+32:     Msg ← BuildDeterministicWhatsAppTemplate(M, Triggers, L)
+33: end try
+
+/* STAGE 3: Human-in-the-Loop Clinical Oversight */
+34: {RecVerified, MsgVerified} ← ClinicianReviewAndApprove(Rec, Msg, L, Triggers)
+35: return {RecVerified, MsgVerified, L, PriorityScore}
+```
 
 ---
 
@@ -279,13 +307,11 @@ All patient cases contained in `data/synthetic_patient_cases_30.json` and genera
 If you use this Convergent AI architecture, benchmark dataset, or evaluation methodology in your research, please cite:
 
 ```bibtex
-@inproceedings{agustin2026pandugizi,
+@article{agustin2026pandugizi,
   author    = {Agustin, Raisya Putri and Miranda, Eka},
   title     = {PanduGizi: An Explainable and Generative Convergent AI Architecture for Maternal and Child Nutritional Follow-Up in Primary Healthcare},
-  booktitle = {Proceedings of the 2026 International Conference on Applied Artificial Intelligence and Digital Expert Systems (ICAIDES)},
   year      = {2026},
-  address   = {Jakarta, Indonesia},
-  publisher = {IEEE}
+  url       = {https://github.com/ralsyq/pandugizi-convergent-ai}
 }
 ```
 
