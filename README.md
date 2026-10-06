@@ -11,7 +11,6 @@ Official research replication package and standalone implementation for the pape
 > *Raisya Putri Agustin and Eka Miranda*  
 > Information Systems Department, School of Information Systems, Bina Nusantara University, Jakarta, Indonesia 11480  
 > Correspondence: `raisya.agustin@binus.ac.id`, `ekamiranda@binus.ac.id`  
-> *IEEE / ICAIDES 2026 Submission*
 
 ---
 
